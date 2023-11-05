@@ -72,6 +72,10 @@ public class GenerateSdkSignatures extends GhidraScript {
 		);
 		TaskMonitor dummyMon = new DummyCancellableTaskMonitor();
 		for (Function func : funcs) {
+			if(func.isInline() || func.isThunk() || func.isExternal()) {
+				println("Skipping thunk/inline/extern function " + func.getName());
+				continue;
+			}
 			println("Collecting signature of " + func.getName());
 			funcMap.put(func.getName(), SdkSignature.fromFunction(func, dummyMon));
 		}

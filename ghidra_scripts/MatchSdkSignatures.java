@@ -1,5 +1,7 @@
-// Given the contents of an "SDK signature library", matches and applies labels to functions
+// Given the contents of an "SDK signature library", matches labels to functions
 // in the program with known binary signatures.
+// This script does not actually apply the label, and is primarily for testing
+// and prototyping.
 //@category ghidra-ps2sdk
 
 import java.io.File;
@@ -7,6 +9,7 @@ import java.util.List;
 
 import ghidra.app.script.GhidraScript;
 import ghidra.ps2sdk.format.*;
+import ghidra.ps2sdk.match.SdkSignatureLibraryMatches;
 import ghidra.ps2sdk.match.SdkSignatureMatch;
 import ghidra.ps2sdk.match.SdkSignatureMatcher;
 import ghidra.ps2sdk.match.SdkSignatureMatcherOptions;
@@ -30,7 +33,8 @@ public class MatchSdkSignatures extends GhidraScript {
 		SdkSignatureMatcher matcher = new SdkSignatureMatcher(new SdkSignatureMatcherOptions());
 		TaskMonitor monitor = new DummyCancellableTaskMonitor();
 		println("Hashing functions in the current selection...");
-		List<SdkSignatureMatch> matches = matcher.match(library, currentProgram, currentSelection, monitor);
+		SdkSignatureLibraryMatches matchLib = matcher.match(library, currentProgram, currentSelection, monitor);
+		List<SdkSignatureMatch> matches = matchLib.getMatches();
 		println("Number of matches: " + matches.size());
 
 		//
@@ -38,10 +42,17 @@ public class MatchSdkSignatures extends GhidraScript {
 		//
 		int transId = currentProgram.startTransaction("Applying SDK function labels");
 		for(SdkSignatureMatch match : matches) {
+			List<Function> matchedFuncs = match.getMatchedFunctions();
 			SdkFunction matchSig = match.getMatchedSignature();
-			Function matchFunc = match.getMatchedFunction();
-			println(String.format(MATCH_MSG_FMT, matchFunc.getName(), matchSig.getLabel()));
-			matchFunc.setName(matchSig.getLabel(), SourceType.IMPORTED);
+
+			if(matchedFuncs.size() > 1) {
+				println(String.format("Multiple matches for %s:", matchSig.getLabel()));
+				for(Function f : matchedFuncs) {
+					println("  " + String.format(MATCH_MSG_FMT, f.getName(), matchSig.getLabel()));
+				}
+			} else {
+				println(String.format(MATCH_MSG_FMT, matchedFuncs.get(0).getName(), matchSig.getLabel()));
+			}
 		}
 		currentProgram.endTransaction(transId, true);
 

@@ -1,15 +1,11 @@
 package ghidra.ps2sdk.match;
 
-import com.google.common.collect.Lists;
-import ghidra.app.script.GhidraScript;
-import ghidra.app.util.importer.MessageLog;
 import ghidra.ps2sdk.format.SdkFunction;
 import ghidra.ps2sdk.format.SdkLibrary;
 import ghidra.ps2sdk.format.SdkSignature;
 import ghidra.program.model.address.AddressSetView;
 import ghidra.program.model.listing.Function;
 import ghidra.program.model.listing.Program;
-import ghidra.program.model.symbol.SourceType;
 import ghidra.util.exception.CancelledException;
 import ghidra.util.task.TaskMonitor;
 
@@ -28,10 +24,35 @@ public class SdkSignatureMatcher {
 	public SdkSignatureMatcher(SdkSignatureMatcherOptions opts) {
 		options = opts;
 	}
+	
+	/**
+	 * Given a set of SDK signature libraries, match each library's signatures against
+	 * functions in the binary, using the current options for guidance.
+	 * The user is responsible for applying the matches and resolving any conflicts or
+	 * signatures with multiple matches.
+	 * @param libraries The SDK signature libraries to match for.
+	 * @param program The `Program` object representing the binary.
+	 * @param addressSetView A set of addresses in the binary to search.
+	 * @param monitor An asynchronous task monitor.
+	 * @return a set of matches for each given library linking `Function`s to their matched signature.
+	 * @throws CancelledException if the operation is cancelled by the user.
+	 */
+	public List<SdkSignatureLibraryMatches> match(List<SdkLibrary> libraries, Program program,
+			AddressSetView addressSetView, TaskMonitor monitor)
+			throws CancelledException {
+		List<SdkSignatureLibraryMatches> matchLibs = new ArrayList<>(libraries.size());
+		for(SdkLibrary lib : libraries) {
+			matchLibs.add(match(lib, program, addressSetView, monitor));
+		}
+		return matchLibs;
+	}
+	
 
 	/**
 	 * Given an SDK signature library, attempt to match signatures against functions
 	 * in the binary, using the current options for guidance.
+	 * The user is responsible for applying the matches and resolving any conflicts
+	 * or signatures with multiple matches.
 	 * @param library The SDK signature library to match for.
 	 * @param program The `Program` object representing the binary.
 	 * @param addressSetView A set of addresses in the binary to search.
@@ -39,34 +60,32 @@ public class SdkSignatureMatcher {
 	 * @return a set of matches linking `Function`s to their matched signature.
 	 * @throws CancelledException if the operation is cancelled by the user.
 	 */
-	public List<SdkSignatureMatch> match(SdkLibrary library, Program program,
+	public SdkSignatureLibraryMatches match(SdkLibrary library, Program program,
 			AddressSetView addressSetView, TaskMonitor monitor)
 			throws CancelledException {
 		List<SdkSignatureMatch> matches = new ArrayList<>();
 		List<Function> candidateFunctions = getCandidateFunctions(program, addressSetView);
 
-		// We cheat a little by creating `SdkSignatureMatch` structures for each candidate function
-		// and overwriting the candidate signature data later if it gets matched.
-		List<SdkSignatureMatch> candidateMatches = new ArrayList<>(candidateFunctions.size());
+		// Create signatures for all candidate functions.
+		List<SdkSignaturePair> candidateMatches = new ArrayList<>(candidateFunctions.size());
 		for(Function f : candidateFunctions) {
-			candidateMatches.add(new SdkSignatureMatch(f, SdkFunction.fromFunction(f, monitor)));
+			candidateMatches.add(new SdkSignaturePair(f, SdkSignature.fromFunction(f, monitor)));
 		}
 
 		// Scan the list of candidate functions for matches.
 		for(SdkFunction sdkFunc : library.getFunctions()) {
-			List<SdkSignatureMatch> sigMatches = candidateMatches.stream().sequential()
-					.filter(m -> isMatch(m.getMatchedSignature().getSignature(), sdkFunc.getSignature()))
-					.collect(Collectors.toList());
+			List<SdkSignaturePair> sigMatches = candidateMatches.stream().sequential()
+					.filter(m -> isMatch(m.sig, sdkFunc.getSignature()))
+					.toList();
 			if(!sigMatches.isEmpty()) {
-				// TODO: Log the case where one signature matches multiple functions.
-				SdkSignatureMatch matched = sigMatches.get(0);
-				candidateMatches.remove(matched);
-				matched.setMatchedSignature(sdkFunc);
+				List<Function> matchedFuncs = sigMatches.stream().map(m -> m.func).toList();
+				SdkSignatureMatch matched = new SdkSignatureMatch(matchedFuncs, sdkFunc);
 				matches.add(matched);
 			}
 		}
 
-		return matches;
+		
+		return new SdkSignatureLibraryMatches(library.getName(), matches);
 	}
 
 	/**
@@ -81,12 +100,6 @@ public class SdkSignatureMatcher {
 				program.getFunctionManager().getFunctions(addressSetView, true).spliterator(), false
 		).sequential().filter(func -> func.getBody().getNumAddresses() >= options.minimumFuncSize);
 
-
-		// TODO: Fix
-		// If manually-labeled functions should be excluded, remove them.
-//		if(options.excludeManuallyLabelled) {
-//			candidateFuncs = candidateFuncs.filter(func -> func.getSymbol().getSource() == SourceType.DEFAULT);
-//		}
 		return candidateFuncs.collect(Collectors.toList());
 	}
 
@@ -95,5 +108,18 @@ public class SdkSignatureMatcher {
 	 */
 	private boolean isMatch(SdkSignature lhs, SdkSignature rhs) {
 		return lhs.getLength() == rhs.getLength() && lhs.getHash() == rhs.getHash();
+	}
+
+	/**
+	 * Inner class used to easily map a function to its signature.
+	 */
+	private static class SdkSignaturePair {
+		public final Function func;
+		public final SdkSignature sig;
+
+		public SdkSignaturePair(Function function, SdkSignature signature) {
+			func = function;
+			sig = signature;
+		}
 	}
 }
