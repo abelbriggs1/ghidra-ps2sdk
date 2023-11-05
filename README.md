@@ -13,7 +13,7 @@ to be installed in order to work correctly.
 ## Installing
 
 - Download the latest release of [`ghidra-emotionengine-reloaded`](https://github.com/chaoticgd/ghidra-emotionengine-reloaded/releases).
-- Download the latest release of [`ghidra-ps2sdk`](https://github.com/chaoticgd/ghidra-ps2sdk/releases).
+- Download the latest release of [`ghidra-ps2sdk`](https://github.com/abelbriggs1/ghidra-ps2sdk/releases).
 - Install both `zip` files using the instructions in Ghidra's [documentation](https://ghidra-sre.org/InstallationGuide.html#Extensions).
 
 ## Building
