@@ -1,0 +1,978 @@
+{
+  "name": "libmpeg",
+  "functions": [
+    {
+      "label": "_sysbitInit",
+      "signature": {
+        "length": 52,
+        "hash": 7785611102940560908
+      }
+    },
+    {
+      "label": "_sysbitNext",
+      "signature": {
+        "length": 28,
+        "hash": 8372748876678325380
+      }
+    },
+    {
+      "label": "_sysbitFlush",
+      "signature": {
+        "length": 152,
+        "hash": 2299035155674779649
+      }
+    },
+    {
+      "label": "_sysbitGet",
+      "signature": {
+        "length": 76,
+        "hash": -2515701810532850446
+      }
+    },
+    {
+      "label": "_sysbitMarker",
+      "signature": {
+        "length": 68,
+        "hash": -151318864165606883
+      }
+    },
+    {
+      "label": "_sysbitJump",
+      "signature": {
+        "length": 84,
+        "hash": 1525198436306577553
+      }
+    },
+    {
+      "label": "_sysbitPtr",
+      "signature": {
+        "length": 44,
+        "hash": 7777156135539289096
+      }
+    },
+    {
+      "label": "_doCSC",
+      "signature": {
+        "length": 232,
+        "hash": -6480062284214286791
+      }
+    },
+    {
+      "label": "_ch3dmaCSC",
+      "signature": {
+        "length": 184,
+        "hash": -4425228586021442309
+      }
+    },
+    {
+      "label": "_doCSC2",
+      "signature": {
+        "length": 432,
+        "hash": -3802923286942246448
+      }
+    },
+    {
+      "label": "_csc_storeRefImage",
+      "signature": {
+        "length": 340,
+        "hash": -119794048102284838
+      }
+    },
+    {
+      "label": "_defStopDMA",
+      "signature": {
+        "length": 12,
+        "hash": 6204779270834393541
+      }
+    },
+    {
+      "label": "_defRestartDMA",
+      "signature": {
+        "length": 12,
+        "hash": 6204779270834393541
+      }
+    },
+    {
+      "label": "_zeroBlockRAW16",
+      "signature": {
+        "length": 92,
+        "hash": 919179338255924329
+      }
+    },
+    {
+      "label": "_initSeqAgain",
+      "signature": {
+        "length": 16,
+        "hash": 6378498042483282710
+      }
+    },
+    {
+      "label": "_lastFrame",
+      "signature": {
+        "length": 132,
+        "hash": 6621931688038743076
+      }
+    },
+    {
+      "label": "_clearOnce",
+      "signature": {
+        "length": 76,
+        "hash": 1715858390739691977
+      }
+    },
+    {
+      "label": "_clearEach",
+      "signature": {
+        "length": 208,
+        "hash": -8940797334839548226
+      }
+    },
+    {
+      "label": "_ErrMessage",
+      "signature": {
+        "length": 16,
+        "hash": -5154981466313951344
+      }
+    },
+    {
+      "label": "_Error1",
+      "signature": {
+        "length": 44,
+        "hash": -1488521129769279588
+      }
+    },
+    {
+      "label": "_Error",
+      "signature": {
+        "length": 88,
+        "hash": 3044961147839364898
+      }
+    },
+    {
+      "label": "_sendDataToIPU",
+      "signature": {
+        "length": 212,
+        "hash": -4154305032654128380
+      }
+    },
+    {
+      "label": "_RefImageInit",
+      "signature": {
+        "length": 32,
+        "hash": 2000304922213978734
+      }
+    },
+    {
+      "label": "_sequenceHeader",
+      "signature": {
+        "length": 340,
+        "hash": 1072415029736734932
+      }
+    },
+    {
+      "label": "_initSeq",
+      "signature": {
+        "length": 836,
+        "hash": 4111352060049558351
+      }
+    },
+    {
+      "label": "_initRefImages",
+      "signature": {
+        "length": 232,
+        "hash": 3573729660801612629
+      }
+    },
+    {
+      "label": "_setDefaultQM",
+      "signature": {
+        "length": 192,
+        "hash": 8355203407019871431
+      }
+    },
+    {
+      "label": "_sequenceExtension",
+      "signature": {
+        "length": 356,
+        "hash": -4146104303814338378
+      }
+    },
+    {
+      "label": "_sequenceDisplayExtension",
+      "signature": {
+        "length": 160,
+        "hash": -1770925345994303598
+      }
+    },
+    {
+      "label": "_sequenceScalableExtension",
+      "signature": {
+        "length": 12,
+        "hash": -3125244358763885227
+      }
+    },
+    {
+      "label": "_unknown_extension",
+      "signature": {
+        "length": 12,
+        "hash": -3125244358763885227
+      }
+    },
+    {
+      "label": "_pictureSpatialScalableExtension",
+      "signature": {
+        "length": 12,
+        "hash": -3125244358763885227
+      }
+    },
+    {
+      "label": "_pictureTemporalScalableExtension",
+      "signature": {
+        "length": 12,
+        "hash": -3125244358763885227
+      }
+    },
+    {
+      "label": "_motionComp0",
+      "signature": {
+        "length": 820,
+        "hash": -5135350690809953802
+      }
+    },
+    {
+      "label": "_getAllRefs",
+      "signature": {
+        "length": 1712,
+        "hash": 3327429817138161146
+      }
+    },
+    {
+      "label": "_getRef0",
+      "signature": {
+        "length": 1056,
+        "hash": 1689281767716643658
+      }
+    },
+    {
+      "label": "_doMC",
+      "signature": {
+        "length": 396,
+        "hash": -4120691807164046173
+      }
+    },
+    {
+      "label": "_rix_000",
+      "signature": {
+        "length": 116,
+        "hash": -4405216797942770468
+      }
+    },
+    {
+      "label": "_ri0_000",
+      "signature": {
+        "length": 148,
+        "hash": -3270690949566575780
+      }
+    },
+    {
+      "label": "_rix_001",
+      "signature": {
+        "length": 180,
+        "hash": -5031989159462301553
+      }
+    },
+    {
+      "label": "_ri0_001",
+      "signature": {
+        "length": 204,
+        "hash": -4035955705499031404
+      }
+    },
+    {
+      "label": "_rix_010",
+      "signature": {
+        "length": 172,
+        "hash": 9030086757831727421
+      }
+    },
+    {
+      "label": "_ri0_010",
+      "signature": {
+        "length": 184,
+        "hash": 446802286604937557
+      }
+    },
+    {
+      "label": "_rix_011",
+      "signature": {
+        "length": 248,
+        "hash": -3033840035716712909
+      }
+    },
+    {
+      "label": "_ri0_011",
+      "signature": {
+        "length": 252,
+        "hash": -7724036013919203398
+      }
+    },
+    {
+      "label": "_rix_100",
+      "signature": {
+        "length": 164,
+        "hash": -1409097031893082519
+      }
+    },
+    {
+      "label": "_ri0_100",
+      "signature": {
+        "length": 172,
+        "hash": 5226049982842971246
+      }
+    },
+    {
+      "label": "_rix_101",
+      "signature": {
+        "length": 228,
+        "hash": 1997755329833002463
+      }
+    },
+    {
+      "label": "_ri0_101",
+      "signature": {
+        "length": 228,
+        "hash": -8251165352863140258
+      }
+    },
+    {
+      "label": "_rix_110",
+      "signature": {
+        "length": 220,
+        "hash": 6458097494120562769
+      }
+    },
+    {
+      "label": "_ri0_110",
+      "signature": {
+        "length": 208,
+        "hash": -4018269169238765749
+      }
+    },
+    {
+      "label": "_rix_111",
+      "signature": {
+        "length": 296,
+        "hash": -8078133961707396485
+      }
+    },
+    {
+      "label": "_ri0_111",
+      "signature": {
+        "length": 276,
+        "hash": -165837678470048592
+      }
+    },
+    {
+      "label": "_copyAddRefImage",
+      "signature": {
+        "length": 92,
+        "hash": 2006126631818161065
+      }
+    },
+    {
+      "label": "_copyRefImage",
+      "signature": {
+        "length": 96,
+        "hash": -3706925447537807593
+      }
+    },
+    {
+      "label": "_ipuSetMPEG1",
+      "signature": {
+        "length": 40,
+        "hash": 5288346879869910207
+      }
+    },
+    {
+      "label": "_waitBdecOut",
+      "signature": {
+        "length": 508,
+        "hash": -8297379257876708078
+      }
+    },
+    {
+      "label": "_dmVector",
+      "signature": {
+        "length": 28,
+        "hash": 5099783238007380992
+      }
+    },
+    {
+      "label": "_dualPrimeVector",
+      "signature": {
+        "length": 392,
+        "hash": -2141937819154314592
+      }
+    },
+    {
+      "label": "_mbAddressIncrement",
+      "signature": {
+        "length": 272,
+        "hash": -3699050457763051263
+      }
+    },
+    {
+      "label": "_pictureData0",
+      "signature": {
+        "length": 292,
+        "hash": 7541563766554155594
+      }
+    },
+    {
+      "label": "_sliceA0",
+      "signature": {
+        "length": 292,
+        "hash": -4434805773629193079
+      }
+    },
+    {
+      "label": "_slice0",
+      "signature": {
+        "length": 512,
+        "hash": -8426268691355526674
+      }
+    },
+    {
+      "label": "_skipMB0",
+      "signature": {
+        "length": 204,
+        "hash": 8984808243614956524
+      }
+    },
+    {
+      "label": "_decMB0",
+      "signature": {
+        "length": 1316,
+        "hash": 7576406041209723559
+      }
+    },
+    {
+      "label": "decode_motion_vector",
+      "signature": {
+        "length": 136,
+        "hash": -7509069788923067829
+      }
+    },
+    {
+      "label": "_motionVectors",
+      "signature": {
+        "length": 380,
+        "hash": 1531622913600099473
+      }
+    },
+    {
+      "label": "_motionVector",
+      "signature": {
+        "length": 316,
+        "hash": 5043610690908393791
+      }
+    },
+    {
+      "label": "_sendIpuCommand",
+      "signature": {
+        "length": 48,
+        "hash": -5636215837154824572
+      }
+    },
+    {
+      "label": "_waitIpuIdle",
+      "signature": {
+        "length": 164,
+        "hash": 2680841579293122926
+      }
+    },
+    {
+      "label": "_waitIpuIdle64",
+      "signature": {
+        "length": 176,
+        "hash": 235795081237686165
+      }
+    },
+    {
+      "label": "_ipuVdec",
+      "signature": {
+        "length": 436,
+        "hash": 4057998280118118506
+      }
+    },
+    {
+      "label": "_peepBit",
+      "signature": {
+        "length": 308,
+        "hash": -8773651683026355940
+      }
+    },
+    {
+      "label": "_flushBuf",
+      "signature": {
+        "length": 276,
+        "hash": -7855827825691799738
+      }
+    },
+    {
+      "label": "_nextBit",
+      "signature": {
+        "length": 360,
+        "hash": -1165360214785381865
+      }
+    },
+    {
+      "label": "_nextStartCode",
+      "signature": {
+        "length": 104,
+        "hash": 2129088375693807172
+      }
+    },
+    {
+      "label": "_sliceB",
+      "signature": {
+        "length": 108,
+        "hash": -2941842333236149367
+      }
+    },
+    {
+      "label": "_nextHeader",
+      "signature": {
+        "length": 292,
+        "hash": 2240859684073763052
+      }
+    },
+    {
+      "label": "_pictureHeader",
+      "signature": {
+        "length": 204,
+        "hash": -3233376016688006163
+      }
+    },
+    {
+      "label": "_extensionAndUserData",
+      "signature": {
+        "length": 172,
+        "hash": -2823781397479806346
+      }
+    },
+    {
+      "label": "_pictureCodingExtension",
+      "signature": {
+        "length": 556,
+        "hash": -1344241263897566477
+      }
+    },
+    {
+      "label": "_extrainfo",
+      "signature": {
+        "length": 48,
+        "hash": 9135051369599292504
+      }
+    },
+    {
+      "label": "_updateTempTackData",
+      "signature": {
+        "length": 224,
+        "hash": 4035514440311422196
+      }
+    },
+    {
+      "label": "_groupOfPicturesHeader",
+      "signature": {
+        "length": 228,
+        "hash": 8821472638069989139
+      }
+    },
+    {
+      "label": "_quantMatrixExtension",
+      "signature": {
+        "length": 172,
+        "hash": 7319830426248930332
+      }
+    },
+    {
+      "label": "_pictureDisplayExtension",
+      "signature": {
+        "length": 240,
+        "hash": -1522043022560236490
+      }
+    },
+    {
+      "label": "_copyrightExtension",
+      "signature": {
+        "length": 172,
+        "hash": 6127609205616308807
+      }
+    },
+    {
+      "label": "_decPicture",
+      "signature": {
+        "length": 224,
+        "hash": 53891740565013566
+      }
+    },
+    {
+      "label": "_outputFrame",
+      "signature": {
+        "length": 184,
+        "hash": -8339593619425209192
+      }
+    },
+    {
+      "label": "_updateRefImage",
+      "signature": {
+        "length": 988,
+        "hash": -397029229332440034
+      }
+    },
+    {
+      "label": "_isOutSizeOK",
+      "signature": {
+        "length": 156,
+        "hash": 3777573542459431951
+      }
+    },
+    {
+      "label": "_cpr8",
+      "signature": {
+        "length": 492,
+        "hash": -4022837737836254574
+      }
+    },
+    {
+      "label": "_markOutput",
+      "signature": {
+        "length": 56,
+        "hash": 2201335398265762472
+      }
+    },
+    {
+      "label": "_getPtsDtsFlags",
+      "signature": {
+        "length": 404,
+        "hash": 4344683662430670531
+      }
+    },
+    {
+      "label": "_dispRefImage",
+      "signature": {
+        "length": 280,
+        "hash": 6434439089211381734
+      }
+    },
+    {
+      "label": "_dispRefImageField",
+      "signature": {
+        "length": 448,
+        "hash": 9135107169171442693
+      }
+    },
+    {
+      "label": "sceMpegInit",
+      "signature": {
+        "length": 168,
+        "hash": 372134367610372733
+      }
+    },
+    {
+      "label": "sceMpegCreate",
+      "signature": {
+        "length": 572,
+        "hash": -5559008461681863227
+      }
+    },
+    {
+      "label": "sceMpegDelete",
+      "signature": {
+        "length": 8,
+        "hash": 6383596078335800002
+      }
+    },
+    {
+      "label": "sceMpegAddBs",
+      "signature": {
+        "length": 56,
+        "hash": -1776258548243576058
+      }
+    },
+    {
+      "label": "sceMpegGetPicture",
+      "signature": {
+        "length": 72,
+        "hash": 6486750761970153112
+      }
+    },
+    {
+      "label": "sceMpegGetPictureRAW8",
+      "signature": {
+        "length": 68,
+        "hash": 3217641137902517117
+      }
+    },
+    {
+      "label": "sceMpegGetPictureRAW8xy",
+      "signature": {
+        "length": 80,
+        "hash": 7057190349868594576
+      }
+    },
+    {
+      "label": "sceMpegSetDecodeMode",
+      "signature": {
+        "length": 20,
+        "hash": -2407034673986113158
+      }
+    },
+    {
+      "label": "sceMpegGetDecodeMode",
+      "signature": {
+        "length": 32,
+        "hash": 3097417068577845764
+      }
+    },
+    {
+      "label": "sceMpegIsEnd",
+      "signature": {
+        "length": 12,
+        "hash": -4893570291528723503
+      }
+    },
+    {
+      "label": "sceMpegIsRefBuffEmpty",
+      "signature": {
+        "length": 16,
+        "hash": -802472525270041181
+      }
+    },
+    {
+      "label": "sceMpegReset",
+      "signature": {
+        "length": 64,
+        "hash": 9194357365207651395
+      }
+    },
+    {
+      "label": "sceMpegClearRefBuff",
+      "signature": {
+        "length": 104,
+        "hash": -6460665279334919070
+      }
+    },
+    {
+      "label": "sceMpegAddCallback",
+      "signature": {
+        "length": 36,
+        "hash": 6464127886494081615
+      }
+    },
+    {
+      "label": "_dispatchMpegCallback",
+      "signature": {
+        "length": 80,
+        "hash": 43391286382135072
+      }
+    },
+    {
+      "label": "_dispatchMpegCbNodata",
+      "signature": {
+        "length": 36,
+        "hash": -2823762730264554787
+      }
+    },
+    {
+      "label": "sceMpegSetDefaultPtsGap",
+      "signature": {
+        "length": 20,
+        "hash": 7243643567255488026
+      }
+    },
+    {
+      "label": "sceMpegResetDefaultPtsGap",
+      "signature": {
+        "length": 16,
+        "hash": 532801754582217118
+      }
+    },
+    {
+      "label": "sceMpegSetImageBuff",
+      "signature": {
+        "length": 20,
+        "hash": -1613739650684478220
+      }
+    },
+    {
+      "label": "sceMpegDispWidth",
+      "signature": {
+        "length": 12,
+        "hash": -4893570291528723503
+      }
+    },
+    {
+      "label": "sceMpegDispHeight",
+      "signature": {
+        "length": 12,
+        "hash": -4893570291528723503
+      }
+    },
+    {
+      "label": "sceMpegDispCenterOffX",
+      "signature": {
+        "length": 12,
+        "hash": 3834582604825295952
+      }
+    },
+    {
+      "label": "sceMpegDispCenterOffY",
+      "signature": {
+        "length": 12,
+        "hash": 3834582604825295952
+      }
+    },
+    {
+      "label": "sceSetBrokenLink",
+      "signature": {
+        "length": 16,
+        "hash": -747727841312201316
+      }
+    },
+    {
+      "label": "sceSetPtm",
+      "signature": {
+        "length": 20,
+        "hash": -4012904467209881393
+      }
+    },
+    {
+      "label": "_alalcInit",
+      "signature": {
+        "length": 20,
+        "hash": 9198176999461855939
+      }
+    },
+    {
+      "label": "_alalcSetDynamic",
+      "signature": {
+        "length": 12,
+        "hash": 3773229855983232552
+      }
+    },
+    {
+      "label": "_alalcFree",
+      "signature": {
+        "length": 12,
+        "hash": 3773229855983232552
+      }
+    },
+    {
+      "label": "_alalcAlloc",
+      "signature": {
+        "length": 104,
+        "hash": 4559875327228938662
+      }
+    },
+    {
+      "label": "_alalcRest",
+      "signature": {
+        "length": 24,
+        "hash": 4996223613155323556
+      }
+    },
+    {
+      "label": "_getpic",
+      "signature": {
+        "length": 232,
+        "hash": 4547343221521036138
+      }
+    },
+    {
+      "label": "_decodeOrSkipFrame",
+      "signature": {
+        "length": 292,
+        "hash": 4800435101185490488
+      }
+    },
+    {
+      "label": "_decodeOrSkip",
+      "signature": {
+        "length": 60,
+        "hash": -31336794439734611
+      }
+    },
+    {
+      "label": "_decodeOrSkipField",
+      "signature": {
+        "length": 368,
+        "hash": -6504356418697682634
+      }
+    },
+    {
+      "label": "_sceMpegFlush",
+      "signature": {
+        "length": 112,
+        "hash": -2024639617387912506
+      }
+    },
+    {
+      "label": "_type2id",
+      "signature": {
+        "length": 136,
+        "hash": -2557197235978296321
+      }
+    },
+    {
+      "label": "_id2type",
+      "signature": {
+        "length": 508,
+        "hash": -7653533556510812564
+      }
+    },
+    {
+      "label": "sceMpegDemuxPssRing",
+      "signature": {
+        "length": 748,
+        "hash": 5815033794799518824
+      }
+    },
+    {
+      "label": "sceMpegDemuxPss",
+      "signature": {
+        "length": 32,
+        "hash": 3820908130359143025
+      }
+    },
+    {
+      "label": "sceMpegAddStrCallback",
+      "signature": {
+        "length": 244,
+        "hash": -5246725835726218194
+      }
+    },
+    {
+      "label": "_pack_header",
+      "signature": {
+        "length": 336,
+        "hash": -8990283922273595256
+      }
+    },
+    {
+      "label": "_system_header",
+      "signature": {
+        "length": 104,
+        "hash": 70399865155518827
+      }
+    },
+    {
+      "label": "_PES_packet",
+      "signature": {
+        "length": 1416,
+        "hash": 4834344631457902783
+      }
+    }
+  ]
+}

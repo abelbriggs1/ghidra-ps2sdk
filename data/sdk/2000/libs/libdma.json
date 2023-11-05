@@ -1,0 +1,306 @@
+{
+  "name": "libdma",
+  "functions": [
+    {
+      "label": "sceDmaGetNextTag",
+      "signature": {
+        "length": 124,
+        "hash": -1297406380266413898
+      }
+    },
+    {
+      "label": "sceDmaAddExpress",
+      "signature": {
+        "length": 72,
+        "hash": 4154806004136820935
+      }
+    },
+    {
+      "label": "sceDmaAddRef",
+      "signature": {
+        "length": 40,
+        "hash": 1727877982178364986
+      }
+    },
+    {
+      "label": "sceDmaAddRefe",
+      "signature": {
+        "length": 36,
+        "hash": 7907247292858870590
+      }
+    },
+    {
+      "label": "sceDmaAddRefs",
+      "signature": {
+        "length": 40,
+        "hash": 4221205342663163082
+      }
+    },
+    {
+      "label": "sceDmaAddCont",
+      "signature": {
+        "length": 48,
+        "hash": -447380122910799693
+      }
+    },
+    {
+      "label": "sceDmaAddNext",
+      "signature": {
+        "length": 36,
+        "hash": 8741536783912650206
+      }
+    },
+    {
+      "label": "sceDmaAddCall",
+      "signature": {
+        "length": 48,
+        "hash": -1806048448954482020
+      }
+    },
+    {
+      "label": "sceDmaAddRet",
+      "signature": {
+        "length": 48,
+        "hash": 5407166111712973635
+      }
+    },
+    {
+      "label": "sceDmaAddEnd",
+      "signature": {
+        "length": 48,
+        "hash": 1050376016642413052
+      }
+    },
+    {
+      "label": "sceDmaAddDest",
+      "signature": {
+        "length": 48,
+        "hash": 107958726284436956
+      }
+    },
+    {
+      "label": "sceDmaAddDests",
+      "signature": {
+        "length": 44,
+        "hash": -9090065582412491804
+      }
+    },
+    {
+      "label": "sceDmaAddIRef",
+      "signature": {
+        "length": 40,
+        "hash": -2503682909766695750
+      }
+    },
+    {
+      "label": "sceDmaAddIRefe",
+      "signature": {
+        "length": 40,
+        "hash": -1494431703056409974
+      }
+    },
+    {
+      "label": "sceDmaAddIRefs",
+      "signature": {
+        "length": 40,
+        "hash": 6048323893831766858
+      }
+    },
+    {
+      "label": "sceDmaAddICont",
+      "signature": {
+        "length": 48,
+        "hash": -4504795275697679053
+      }
+    },
+    {
+      "label": "sceDmaAddINext",
+      "signature": {
+        "length": 36,
+        "hash": 4154422408473857118
+      }
+    },
+    {
+      "label": "sceDmaAddICall",
+      "signature": {
+        "length": 48,
+        "hash": 1859169935800600092
+      }
+    },
+    {
+      "label": "sceDmaAddIRet",
+      "signature": {
+        "length": 48,
+        "hash": 3186280675906446787
+      }
+    },
+    {
+      "label": "sceDmaAddIEnd",
+      "signature": {
+        "length": 48,
+        "hash": 5745468700923698044
+      }
+    },
+    {
+      "label": "sceDmaAddIDest",
+      "signature": {
+        "length": 48,
+        "hash": -703996130576335524
+      }
+    },
+    {
+      "label": "sceDmaAddIDests",
+      "signature": {
+        "length": 48,
+        "hash": 8603489048609476204
+      }
+    },
+    {
+      "label": "memclr",
+      "signature": {
+        "length": 52,
+        "hash": -3400900437109826198
+      }
+    },
+    {
+      "label": "sceDmaGetChan",
+      "signature": {
+        "length": 40,
+        "hash": 1783724421444716273
+      }
+    },
+    {
+      "label": "sceDmaReset",
+      "signature": {
+        "length": 220,
+        "hash": 62525831973498801
+      }
+    },
+    {
+      "label": "sceDmaDebug",
+      "signature": {
+        "length": 16,
+        "hash": -5519652008896435499
+      }
+    },
+    {
+      "label": "sceDmaPutEnv",
+      "signature": {
+        "length": 472,
+        "hash": -4172916908041526857
+      }
+    },
+    {
+      "label": "sceDmaGetEnv",
+      "signature": {
+        "length": 56,
+        "hash": -816318143172985386
+      }
+    },
+    {
+      "label": "sceDmaPutStallAddr",
+      "signature": {
+        "length": 40,
+        "hash": -1087939519961555670
+      }
+    },
+    {
+      "label": "sceDmaSend",
+      "signature": {
+        "length": 216,
+        "hash": -8894952192427702079
+      }
+    },
+    {
+      "label": "sceDmaSendN",
+      "signature": {
+        "length": 228,
+        "hash": -2145751930326939304
+      }
+    },
+    {
+      "label": "sceDmaSendI",
+      "signature": {
+        "length": 228,
+        "hash": -844612818745770896
+      }
+    },
+    {
+      "label": "sceDmaRecv",
+      "signature": {
+        "length": 196,
+        "hash": 3834196661706832684
+      }
+    },
+    {
+      "label": "sceDmaRecvN",
+      "signature": {
+        "length": 236,
+        "hash": -2094318712061595642
+      }
+    },
+    {
+      "label": "sceDmaRecvI",
+      "signature": {
+        "length": 240,
+        "hash": 7013247696548627620
+      }
+    },
+    {
+      "label": "sceDmaSendM",
+      "signature": {
+        "length": 12,
+        "hash": -3125244358763885227
+      }
+    },
+    {
+      "label": "sceDmaSync",
+      "signature": {
+        "length": 196,
+        "hash": 8787851208039154049
+      }
+    },
+    {
+      "label": "sceDmaWatch",
+      "signature": {
+        "length": 208,
+        "hash": -9017165148913500644
+      }
+    },
+    {
+      "label": "sceDmaSyncN",
+      "signature": {
+        "length": 36,
+        "hash": -5426139704053887459
+      }
+    },
+    {
+      "label": "sceDmaLastSyncTime",
+      "signature": {
+        "length": 12,
+        "hash": -3125244358763885227
+      }
+    },
+    {
+      "label": "sceDmaPause",
+      "signature": {
+        "length": 28,
+        "hash": -1157650187147694088
+      }
+    },
+    {
+      "label": "sceDmaRestart",
+      "signature": {
+        "length": 28,
+        "hash": -1157650187147694088
+      }
+    },
+    {
+      "label": "sceDmaCallback",
+      "signature": {
+        "length": 36,
+        "hash": -5426139704053887459
+      }
+    }
+  ]
+}

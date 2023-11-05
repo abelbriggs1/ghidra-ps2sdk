@@ -1,0 +1,2056 @@
+{
+  "name": "libkernl",
+  "functions": [
+    {
+      "label": "_sceSDC",
+      "signature": {
+        "length": 164,
+        "hash": 7061136627093184438
+      }
+    },
+    {
+      "label": "SyncDCache",
+      "signature": {
+        "length": 116,
+        "hash": -4279104037671959867
+      }
+    },
+    {
+      "label": "iSyncDCache",
+      "signature": {
+        "length": 20,
+        "hash": -1818506008588529668
+      }
+    },
+    {
+      "label": "_sceIDC",
+      "signature": {
+        "length": 164,
+        "hash": 7061136627093184438
+      }
+    },
+    {
+      "label": "InvalidDCache",
+      "signature": {
+        "length": 116,
+        "hash": -4279104037671959867
+      }
+    },
+    {
+      "label": "iInvalidDCache",
+      "signature": {
+        "length": 20,
+        "hash": -1818506008588529668
+      }
+    },
+    {
+      "label": "sceDeci2Open",
+      "signature": {
+        "length": 68,
+        "hash": -3531427052147903337
+      }
+    },
+    {
+      "label": "sceDeci2Close",
+      "signature": {
+        "length": 36,
+        "hash": -8352302758682799028
+      }
+    },
+    {
+      "label": "sceDeci2ReqSend",
+      "signature": {
+        "length": 48,
+        "hash": -7795305113486799515
+      }
+    },
+    {
+      "label": "sceDeci2Poll",
+      "signature": {
+        "length": 36,
+        "hash": -8352302758682799028
+      }
+    },
+    {
+      "label": "sceDeci2ExRecv",
+      "signature": {
+        "length": 52,
+        "hash": 4654681276214164971
+      }
+    },
+    {
+      "label": "sceDeci2ExSend",
+      "signature": {
+        "length": 52,
+        "hash": 8780317529607477770
+      }
+    },
+    {
+      "label": "sceDeci2ExReqSend",
+      "signature": {
+        "length": 48,
+        "hash": -2529636017727134606
+      }
+    },
+    {
+      "label": "sceDeci2ExLock",
+      "signature": {
+        "length": 36,
+        "hash": -8352302758682799028
+      }
+    },
+    {
+      "label": "sceDeci2ExUnLock",
+      "signature": {
+        "length": 36,
+        "hash": -8352302758682799028
+      }
+    },
+    {
+      "label": "kputs",
+      "signature": {
+        "length": 36,
+        "hash": -8352302758682799028
+      }
+    },
+    {
+      "label": "_lf_bind",
+      "signature": {
+        "length": 256,
+        "hash": 6914146288255178709
+      }
+    },
+    {
+      "label": "_lf_version",
+      "signature": {
+        "length": 44,
+        "hash": -2598374067318164382
+      }
+    },
+    {
+      "label": "sceSifLoadFileReset",
+      "signature": {
+        "length": 56,
+        "hash": -890290185811333210
+      }
+    },
+    {
+      "label": "sceSifLoadModuleBuffer",
+      "signature": {
+        "length": 492,
+        "hash": -3708951320072588420
+      }
+    },
+    {
+      "label": "_sceSifLoadModule",
+      "signature": {
+        "length": 512,
+        "hash": -4858702021947528218
+      }
+    },
+    {
+      "label": "sceSifLoadModule",
+      "signature": {
+        "length": 28,
+        "hash": -6739642539934219019
+      }
+    },
+    {
+      "label": "_sceSifLoadElfPart",
+      "signature": {
+        "length": 260,
+        "hash": 5385925709777538207
+      }
+    },
+    {
+      "label": "sceSifLoadElfPart",
+      "signature": {
+        "length": 28,
+        "hash": -5346219241390724949
+      }
+    },
+    {
+      "label": "sceSifLoadElf",
+      "signature": {
+        "length": 40,
+        "hash": -7821689551467937914
+      }
+    },
+    {
+      "label": "sceSifGetIopAddr",
+      "signature": {
+        "length": 236,
+        "hash": 6372732268439684942
+      }
+    },
+    {
+      "label": "sceSifSetIopAddr",
+      "signature": {
+        "length": 220,
+        "hash": -3380382077394183170
+      }
+    },
+    {
+      "label": "new_iob",
+      "signature": {
+        "length": 112,
+        "hash": -4810262158222156229
+      }
+    },
+    {
+      "label": "get_iob",
+      "signature": {
+        "length": 36,
+        "hash": -1544945772915351190
+      }
+    },
+    {
+      "label": "sceFsInit",
+      "signature": {
+        "length": 320,
+        "hash": 6068529798520436421
+      }
+    },
+    {
+      "label": "_fs_version",
+      "signature": {
+        "length": 44,
+        "hash": -2598374067318164382
+      }
+    },
+    {
+      "label": "sceFsReset",
+      "signature": {
+        "length": 52,
+        "hash": -4528198855450165528
+      }
+    },
+    {
+      "label": "sceOpen",
+      "signature": {
+        "length": 384,
+        "hash": -4611275465784665070
+      }
+    },
+    {
+      "label": "sceClose",
+      "signature": {
+        "length": 184,
+        "hash": -2206953235887161779
+      }
+    },
+    {
+      "label": "sceLseek",
+      "signature": {
+        "length": 224,
+        "hash": 8199459642108660651
+      }
+    },
+    {
+      "label": "fs_read_intr",
+      "signature": {
+        "length": 144,
+        "hash": -3078242859993322585
+      }
+    },
+    {
+      "label": "sceRead",
+      "signature": {
+        "length": 304,
+        "hash": -7220843568880661110
+      }
+    },
+    {
+      "label": "sceWrite",
+      "signature": {
+        "length": 388,
+        "hash": 4800403296446625071
+      }
+    },
+    {
+      "label": "sceIoctl",
+      "signature": {
+        "length": 152,
+        "hash": 3931397404388092401
+      }
+    },
+    {
+      "label": "VSync",
+      "signature": {
+        "length": 64,
+        "hash": -3862307357418918497
+      }
+    },
+    {
+      "label": "VSync2",
+      "signature": {
+        "length": 96,
+        "hash": 4035135638742304109
+      }
+    },
+    {
+      "label": "write",
+      "signature": {
+        "length": 124,
+        "hash": -6554034457651201220
+      }
+    },
+    {
+      "label": "read",
+      "signature": {
+        "length": 116,
+        "hash": -7445663669293552602
+      }
+    },
+    {
+      "label": "open",
+      "signature": {
+        "length": 40,
+        "hash": 6788969899014537229
+      }
+    },
+    {
+      "label": "close",
+      "signature": {
+        "length": 8,
+        "hash": 6383596078335800002
+      }
+    },
+    {
+      "label": "ioctl",
+      "signature": {
+        "length": 8,
+        "hash": 6383596078335800002
+      }
+    },
+    {
+      "label": "lseek",
+      "signature": {
+        "length": 8,
+        "hash": 6383596078335800002
+      }
+    },
+    {
+      "label": "sbrk",
+      "signature": {
+        "length": 168,
+        "hash": 6275748200528420615
+      }
+    },
+    {
+      "label": "isatty",
+      "signature": {
+        "length": 8,
+        "hash": 6383596078335800002
+      }
+    },
+    {
+      "label": "fstat",
+      "signature": {
+        "length": 20,
+        "hash": 4313983853905332981
+      }
+    },
+    {
+      "label": "getpid",
+      "signature": {
+        "length": 8,
+        "hash": 6383596078335800002
+      }
+    },
+    {
+      "label": "kill",
+      "signature": {
+        "length": 40,
+        "hash": -3100984442986534567
+      }
+    },
+    {
+      "label": "stat",
+      "signature": {
+        "length": 40,
+        "hash": 6788969899014537229
+      }
+    },
+    {
+      "label": "unlink",
+      "signature": {
+        "length": 40,
+        "hash": 6788969899014537229
+      }
+    },
+    {
+      "label": "putnum",
+      "signature": {
+        "length": 84,
+        "hash": 2282073980268003841
+      }
+    },
+    {
+      "label": "get_mem_info",
+      "signature": {
+        "length": 20,
+        "hash": 1164676125452142772
+      }
+    },
+    {
+      "label": "DisableIntc",
+      "signature": {
+        "length": 100,
+        "hash": 6838276184291252094
+      }
+    },
+    {
+      "label": "EnableIntc",
+      "signature": {
+        "length": 100,
+        "hash": 6838276184291252094
+      }
+    },
+    {
+      "label": "DisableDmac",
+      "signature": {
+        "length": 100,
+        "hash": 6838276184291252094
+      }
+    },
+    {
+      "label": "EnableDmac",
+      "signature": {
+        "length": 100,
+        "hash": 6838276184291252094
+      }
+    },
+    {
+      "label": "SetAlarm",
+      "signature": {
+        "length": 108,
+        "hash": 2306526131807472332
+      }
+    },
+    {
+      "label": "ReleaseAlarm",
+      "signature": {
+        "length": 100,
+        "hash": 6838276184291252094
+      }
+    },
+    {
+      "label": "iEnableIntc",
+      "signature": {
+        "length": 32,
+        "hash": 6766035410494127463
+      }
+    },
+    {
+      "label": "iDisableIntc",
+      "signature": {
+        "length": 32,
+        "hash": 6766035410494127463
+      }
+    },
+    {
+      "label": "iEnableDmac",
+      "signature": {
+        "length": 32,
+        "hash": 6766035410494127463
+      }
+    },
+    {
+      "label": "iDisableDmac",
+      "signature": {
+        "length": 32,
+        "hash": 6766035410494127463
+      }
+    },
+    {
+      "label": "iSetAlarm",
+      "signature": {
+        "length": 32,
+        "hash": 4210176822599532131
+      }
+    },
+    {
+      "label": "iReleaseAlarm",
+      "signature": {
+        "length": 32,
+        "hash": 6766035410494127463
+      }
+    },
+    {
+      "label": "sceSifInitIopHeap",
+      "signature": {
+        "length": 136,
+        "hash": -953513370858328948
+      }
+    },
+    {
+      "label": "sceSifAllocIopHeap",
+      "signature": {
+        "length": 112,
+        "hash": -3900569008335356938
+      }
+    },
+    {
+      "label": "sceSifFreeIopHeap",
+      "signature": {
+        "length": 120,
+        "hash": 4075640568130637012
+      }
+    },
+    {
+      "label": "sceSifLoadIopHeap",
+      "signature": {
+        "length": 240,
+        "hash": 3021720146168427910
+      }
+    },
+    {
+      "label": "sceSifResetIop",
+      "signature": {
+        "length": 304,
+        "hash": -2376788033945788354
+      }
+    },
+    {
+      "label": "sceSifIsAliveIop",
+      "signature": {
+        "length": 40,
+        "hash": 1988893461618205905
+      }
+    },
+    {
+      "label": "sceSifSyncIop",
+      "signature": {
+        "length": 72,
+        "hash": 371120744287866218
+      }
+    },
+    {
+      "label": "sceSifRebootIop",
+      "signature": {
+        "length": 256,
+        "hash": -8280368114610575048
+      }
+    },
+    {
+      "label": "RFU000_FullReset",
+      "signature": {
+        "length": 16,
+        "hash": -1955496455933551573
+      }
+    },
+    {
+      "label": "ResetEE",
+      "signature": {
+        "length": 16,
+        "hash": 8180587964395166730
+      }
+    },
+    {
+      "label": "SetGsCrt",
+      "signature": {
+        "length": 16,
+        "hash": 5304465737299296061
+      }
+    },
+    {
+      "label": "RFU003",
+      "signature": {
+        "length": 16,
+        "hash": -5663038673824843940
+      }
+    },
+    {
+      "label": "Exit",
+      "signature": {
+        "length": 16,
+        "hash": 3750175678353355527
+      }
+    },
+    {
+      "label": "RFU005",
+      "signature": {
+        "length": 16,
+        "hash": 791975032047311766
+      }
+    },
+    {
+      "label": "LoadExecPS2",
+      "signature": {
+        "length": 16,
+        "hash": 3070424931892808713
+      }
+    },
+    {
+      "label": "ExecPS2",
+      "signature": {
+        "length": 16,
+        "hash": -8414809957105868696
+      }
+    },
+    {
+      "label": "RFU008",
+      "signature": {
+        "length": 16,
+        "hash": -7487595146125055565
+      }
+    },
+    {
+      "label": "RFU009",
+      "signature": {
+        "length": 16,
+        "hash": 1450449361233332818
+      }
+    },
+    {
+      "label": "AddSbusIntcHandler",
+      "signature": {
+        "length": 16,
+        "hash": 6438109911305128197
+      }
+    },
+    {
+      "label": "RemoveSbusIntcHandler",
+      "signature": {
+        "length": 16,
+        "hash": -4529394499819011804
+      }
+    },
+    {
+      "label": "Interrupt2Iop",
+      "signature": {
+        "length": 16,
+        "hash": -1781923011838148465
+      }
+    },
+    {
+      "label": "SetVTLBRefillHandler",
+      "signature": {
+        "length": 16,
+        "hash": 1925619206053143902
+      }
+    },
+    {
+      "label": "SetVCommonHandler",
+      "signature": {
+        "length": 16,
+        "hash": -6105075147984094383
+      }
+    },
+    {
+      "label": "SetVInterruptHandler",
+      "signature": {
+        "length": 16,
+        "hash": 6528736641542684848
+      }
+    },
+    {
+      "label": "AddIntcHandler",
+      "signature": {
+        "length": 16,
+        "hash": 6938220974648960571
+      }
+    },
+    {
+      "label": "AddIntcHandler2",
+      "signature": {
+        "length": 16,
+        "hash": 6938220974648960571
+      }
+    },
+    {
+      "label": "RemoveIntcHandler",
+      "signature": {
+        "length": 16,
+        "hash": -1372438678731872742
+      }
+    },
+    {
+      "label": "AddDmacHandler",
+      "signature": {
+        "length": 16,
+        "hash": 9043611040940440589
+      }
+    },
+    {
+      "label": "AddDmacHandler2",
+      "signature": {
+        "length": 16,
+        "hash": 9043611040940440589
+      }
+    },
+    {
+      "label": "RemoveDmacHandler",
+      "signature": {
+        "length": 16,
+        "hash": 5939889406983966636
+      }
+    },
+    {
+      "label": "_EnableIntc",
+      "signature": {
+        "length": 16,
+        "hash": 7489320981994500055
+      }
+    },
+    {
+      "label": "_DisableIntc",
+      "signature": {
+        "length": 16,
+        "hash": 7240330985914754726
+      }
+    },
+    {
+      "label": "_EnableDmac",
+      "signature": {
+        "length": 16,
+        "hash": 4364208758818884057
+      }
+    },
+    {
+      "label": "_DisableDmac",
+      "signature": {
+        "length": 16,
+        "hash": -6603295652305255944
+      }
+    },
+    {
+      "label": "_SetAlarm",
+      "signature": {
+        "length": 16,
+        "hash": -6193811319198980221
+      }
+    },
+    {
+      "label": "_ReleaseAlarm",
+      "signature": {
+        "length": 16,
+        "hash": -7320997630507939998
+      }
+    },
+    {
+      "label": "_iEnableIntc",
+      "signature": {
+        "length": 16,
+        "hash": -7766115054389502840
+      }
+    },
+    {
+      "label": "_iDisableIntc",
+      "signature": {
+        "length": 16,
+        "hash": 1510732568752386763
+      }
+    },
+    {
+      "label": "_iEnableDmac",
+      "signature": {
+        "length": 16,
+        "hash": -2806131006788966230
+      }
+    },
+    {
+      "label": "_iDisableDmac",
+      "signature": {
+        "length": 16,
+        "hash": 1676176735865542165
+      }
+    },
+    {
+      "label": "_iSetAlarm",
+      "signature": {
+        "length": 16,
+        "hash": -9155891212272174540
+      }
+    },
+    {
+      "label": "_iReleaseAlarm",
+      "signature": {
+        "length": 16,
+        "hash": -6830233903871507545
+      }
+    },
+    {
+      "label": "CreateThread",
+      "signature": {
+        "length": 16,
+        "hash": 5004436231007108491
+      }
+    },
+    {
+      "label": "DeleteThread",
+      "signature": {
+        "length": 16,
+        "hash": -3306223422373724822
+      }
+    },
+    {
+      "label": "StartThread",
+      "signature": {
+        "length": 16,
+        "hash": -6182345649469595491
+      }
+    },
+    {
+      "label": "ExitThread",
+      "signature": {
+        "length": 16,
+        "hash": 1296894013115816124
+      }
+    },
+    {
+      "label": "ExitDeleteThread",
+      "signature": {
+        "length": 16,
+        "hash": -7736635708415536025
+      }
+    },
+    {
+      "label": "TerminateThread",
+      "signature": {
+        "length": 16,
+        "hash": 7751907718987971830
+      }
+    },
+    {
+      "label": "iTerminateThread",
+      "signature": {
+        "length": 16,
+        "hash": -2524596791133656004
+      }
+    },
+    {
+      "label": "DisableDispatchThread",
+      "signature": {
+        "length": 16,
+        "hash": -5310139267846272184
+      }
+    },
+    {
+      "label": "EnableDispatchThread",
+      "signature": {
+        "length": 16,
+        "hash": -7609865584966294893
+      }
+    },
+    {
+      "label": "ChangeThreadPriority",
+      "signature": {
+        "length": 16,
+        "hash": -6809420897434722894
+      }
+    },
+    {
+      "label": "iChangeThreadPriority",
+      "signature": {
+        "length": 16,
+        "hash": 1781573903699232984
+      }
+    },
+    {
+      "label": "RotateThreadReadyQueue",
+      "signature": {
+        "length": 16,
+        "hash": -4651664938660251132
+      }
+    },
+    {
+      "label": "_iRotateThreadReadyQueue",
+      "signature": {
+        "length": 16,
+        "hash": -4199004789335186822
+      }
+    },
+    {
+      "label": "ReleaseWaitThread",
+      "signature": {
+        "length": 16,
+        "hash": 1803348767211904574
+      }
+    },
+    {
+      "label": "iReleaseWaitThread",
+      "signature": {
+        "length": 16,
+        "hash": -2053563730898507900
+      }
+    },
+    {
+      "label": "GetThreadId",
+      "signature": {
+        "length": 16,
+        "hash": 6406466202701445520
+      }
+    },
+    {
+      "label": "ReferThreadStatus",
+      "signature": {
+        "length": 16,
+        "hash": 6815950535807721243
+      }
+    },
+    {
+      "label": "iReferThreadStatus",
+      "signature": {
+        "length": 16,
+        "hash": -5993487648389675007
+      }
+    },
+    {
+      "label": "SleepThread",
+      "signature": {
+        "length": 16,
+        "hash": 783740782272384877
+      }
+    },
+    {
+      "label": "WakeupThread",
+      "signature": {
+        "length": 16,
+        "hash": 5817618968142727308
+      }
+    },
+    {
+      "label": "_iWakeupThread",
+      "signature": {
+        "length": 16,
+        "hash": 6581172524782696514
+      }
+    },
+    {
+      "label": "CancelWakeupThread",
+      "signature": {
+        "length": 16,
+        "hash": -1019539272753300986
+      }
+    },
+    {
+      "label": "iCancelWakeupThread",
+      "signature": {
+        "length": 16,
+        "hash": -1015909244445251060
+      }
+    },
+    {
+      "label": "SuspendThread",
+      "signature": {
+        "length": 16,
+        "hash": 3583578162736239960
+      }
+    },
+    {
+      "label": "iSuspendThread",
+      "signature": {
+        "length": 16,
+        "hash": -1561907067707775858
+      }
+    },
+    {
+      "label": "ResumeThread",
+      "signature": {
+        "length": 16,
+        "hash": -361064943567279934
+      }
+    },
+    {
+      "label": "iResumeThread",
+      "signature": {
+        "length": 16,
+        "hash": 8444833577329005544
+      }
+    },
+    {
+      "label": "JoinThread",
+      "signature": {
+        "length": 16,
+        "hash": 4242052491922261012
+      }
+    },
+    {
+      "label": "RFU060",
+      "signature": {
+        "length": 16,
+        "hash": 7771103631288891007
+      }
+    },
+    {
+      "label": "RFU061",
+      "signature": {
+        "length": 16,
+        "hash": 5542494070853049102
+      }
+    },
+    {
+      "label": "EndOfHeap",
+      "signature": {
+        "length": 16,
+        "hash": 5375582493983476865
+      }
+    },
+    {
+      "label": "RFU063",
+      "signature": {
+        "length": 16,
+        "hash": -5591921917140663136
+      }
+    },
+    {
+      "label": "CreateSema",
+      "signature": {
+        "length": 16,
+        "hash": 6426644241575743467
+      }
+    },
+    {
+      "label": "DeleteSema",
+      "signature": {
+        "length": 16,
+        "hash": -1884015411805089846
+      }
+    },
+    {
+      "label": "SignalSema",
+      "signature": {
+        "length": 16,
+        "hash": -4760137638900960515
+      }
+    },
+    {
+      "label": "iSignalSema",
+      "signature": {
+        "length": 16,
+        "hash": 7860962460663977203
+      }
+    },
+    {
+      "label": "WaitSema",
+      "signature": {
+        "length": 16,
+        "hash": -6314427697846901049
+      }
+    },
+    {
+      "label": "PollSema",
+      "signature": {
+        "length": 16,
+        "hash": 9174115729556606806
+      }
+    },
+    {
+      "label": "iPollSema",
+      "signature": {
+        "length": 16,
+        "hash": 3130490457966550172
+      }
+    },
+    {
+      "label": "ReferSemaStatus",
+      "signature": {
+        "length": 16,
+        "hash": 3194271868504262184
+      }
+    },
+    {
+      "label": "iReferSemaStatus",
+      "signature": {
+        "length": 16,
+        "hash": 7221334283770855582
+      }
+    },
+    {
+      "label": "RFU073",
+      "signature": {
+        "length": 16,
+        "hash": -8614154014966923758
+      }
+    },
+    {
+      "label": "SetOsdConfigParam",
+      "signature": {
+        "length": 16,
+        "hash": -3626493464895128379
+      }
+    },
+    {
+      "label": "GetOsdConfigParam",
+      "signature": {
+        "length": 16,
+        "hash": 3852746197690283236
+      }
+    },
+    {
+      "label": "GetGsHParam",
+      "signature": {
+        "length": 16,
+        "hash": 6600217685671146575
+      }
+    },
+    {
+      "label": "GetGsVParam",
+      "signature": {
+        "length": 16,
+        "hash": -8138984170147112674
+      }
+    },
+    {
+      "label": "SetGsHParam",
+      "signature": {
+        "length": 16,
+        "hash": 2277065549525200657
+      }
+    },
+    {
+      "label": "SetGsVParam",
+      "signature": {
+        "length": 16,
+        "hash": -3535866734657571728
+      }
+    },
+    {
+      "label": "RFU080_CreateEventFlag",
+      "signature": {
+        "length": 16,
+        "hash": -3126382401551296005
+      }
+    },
+    {
+      "label": "RFU081_DeleteEventFlag",
+      "signature": {
+        "length": 16,
+        "hash": 7009702018777422298
+      }
+    },
+    {
+      "label": "RFU082_SetEventFlag",
+      "signature": {
+        "length": 16,
+        "hash": 2205948792841019853
+      }
+    },
+    {
+      "label": "RFU083_iSetEventFlag",
+      "signature": {
+        "length": 16,
+        "hash": -9077094066357169469
+      }
+    },
+    {
+      "label": "RFU084_ClearEventFlag",
+      "signature": {
+        "length": 16,
+        "hash": 651658733895079319
+      }
+    },
+    {
+      "label": "RFU085_iClearEventFlag",
+      "signature": {
+        "length": 16,
+        "hash": -3757077772302646451
+      }
+    },
+    {
+      "label": "RFU086_WaitEvnetFlag",
+      "signature": {
+        "length": 16,
+        "hash": -2473453489280536679
+      }
+    },
+    {
+      "label": "RFU087_PollEvnetFlag",
+      "signature": {
+        "length": 16,
+        "hash": 5005786173304874936
+      }
+    },
+    {
+      "label": "RFU088_iPollEvnetFlag",
+      "signature": {
+        "length": 16,
+        "hash": -7271360766535221906
+      }
+    },
+    {
+      "label": "RFU089_ReferEventFlagStatus",
+      "signature": {
+        "length": 16,
+        "hash": 1061143067001355042
+      }
+    },
+    {
+      "label": "RFU090_iReferEventFlagStatus",
+      "signature": {
+        "length": 16,
+        "hash": -4346823247280339896
+      }
+    },
+    {
+      "label": "RFU091",
+      "signature": {
+        "length": 16,
+        "hash": 5664260502490895988
+      }
+    },
+    {
+      "label": "EnableIntcHandler",
+      "signature": {
+        "length": 16,
+        "hash": -2171229306070126241
+      }
+    },
+    {
+      "label": "iEnableIntcHandler",
+      "signature": {
+        "length": 16,
+        "hash": -6472139942633696150
+      }
+    },
+    {
+      "label": "DisableIntcHandler",
+      "signature": {
+        "length": 16,
+        "hash": -1172897738405132306
+      }
+    },
+    {
+      "label": "iDisableIntcHandler",
+      "signature": {
+        "length": 16,
+        "hash": 1868527414873869269
+      }
+    },
+    {
+      "label": "EnableDmacHandler",
+      "signature": {
+        "length": 16,
+        "hash": -1339809315274704543
+      }
+    },
+    {
+      "label": "iEnableDmacHandler",
+      "signature": {
+        "length": 16,
+        "hash": -8963540533263847436
+      }
+    },
+    {
+      "label": "DisableDmacHandler",
+      "signature": {
+        "length": 16,
+        "hash": 6139430347310707072
+      }
+    },
+    {
+      "label": "iDisableDmacHandler",
+      "signature": {
+        "length": 16,
+        "hash": -6637883224863180441
+      }
+    },
+    {
+      "label": "KSeg0",
+      "signature": {
+        "length": 16,
+        "hash": -5060167145193148085
+      }
+    },
+    {
+      "label": "EnableCache",
+      "signature": {
+        "length": 16,
+        "hash": 8302858403236406058
+      }
+    },
+    {
+      "label": "DisableCache",
+      "signature": {
+        "length": 16,
+        "hash": 5426736176140535389
+      }
+    },
+    {
+      "label": "GetCop0",
+      "signature": {
+        "length": 16,
+        "hash": -5540768234983604612
+      }
+    },
+    {
+      "label": "FlushCache",
+      "signature": {
+        "length": 16,
+        "hash": 3872446117194594855
+      }
+    },
+    {
+      "label": "CpuConfig",
+      "signature": {
+        "length": 16,
+        "hash": -7116448883148687191
+      }
+    },
+    {
+      "label": "iGetCop0",
+      "signature": {
+        "length": 16,
+        "hash": 8648741493976691887
+      }
+    },
+    {
+      "label": "iFlushCache",
+      "signature": {
+        "length": 16,
+        "hash": -5955023898855144066
+      }
+    },
+    {
+      "label": "iCpuConfig",
+      "signature": {
+        "length": 16,
+        "hash": 1342506095955338904
+      }
+    },
+    {
+      "label": "sceSifStopDma",
+      "signature": {
+        "length": 16,
+        "hash": 3730475758849043908
+      }
+    },
+    {
+      "label": "SetCPUTimerHandler",
+      "signature": {
+        "length": 16,
+        "hash": 6477947246829907247
+      }
+    },
+    {
+      "label": "SetCPUTimer",
+      "signature": {
+        "length": 16,
+        "hash": -8261254608988352002
+      }
+    },
+    {
+      "label": "SetOsdConfigParam2",
+      "signature": {
+        "length": 16,
+        "hash": -5982804709142855055
+      }
+    },
+    {
+      "label": "GetOsdConfigParam2",
+      "signature": {
+        "length": 16,
+        "hash": -3658137173498811056
+      }
+    },
+    {
+      "label": "GsGetIMR",
+      "signature": {
+        "length": 16,
+        "hash": -3248652840392535333
+      }
+    },
+    {
+      "label": "iGsGetIMR",
+      "signature": {
+        "length": 16,
+        "hash": 868621201291701574
+      }
+    },
+    {
+      "label": "GsPutIMR",
+      "signature": {
+        "length": 16,
+        "hash": 6887431579936182970
+      }
+    },
+    {
+      "label": "iGsPutIMR",
+      "signature": {
+        "length": 16,
+        "hash": -5801136969381347903
+      }
+    },
+    {
+      "label": "SetPgifHandler",
+      "signature": {
+        "length": 16,
+        "hash": 9165881479781679917
+      }
+    },
+    {
+      "label": "SetVSyncFlag",
+      "signature": {
+        "length": 16,
+        "hash": -4246984408057529268
+      }
+    },
+    {
+      "label": "RFU116",
+      "signature": {
+        "length": 16,
+        "hash": 7611591420835739383
+      }
+    },
+    {
+      "label": "print",
+      "signature": {
+        "length": 16,
+        "hash": 7362601424755994054
+      }
+    },
+    {
+      "label": "sceSifDmaStat",
+      "signature": {
+        "length": 16,
+        "hash": 4486479197660123385
+      }
+    },
+    {
+      "label": "isceSifDmaStat",
+      "signature": {
+        "length": 16,
+        "hash": -823558565436923956
+      }
+    },
+    {
+      "label": "sceSifSetDma",
+      "signature": {
+        "length": 16,
+        "hash": -6481025213464016616
+      }
+    },
+    {
+      "label": "isceSifSetDma",
+      "signature": {
+        "length": 16,
+        "hash": -6361684034203923009
+      }
+    },
+    {
+      "label": "sceSifSetDChain",
+      "signature": {
+        "length": 16,
+        "hash": -6071540880357740893
+      }
+    },
+    {
+      "label": "isceSifSetDChain",
+      "signature": {
+        "length": 16,
+        "hash": -1369556388699448754
+      }
+    },
+    {
+      "label": "sceSifSetReg",
+      "signature": {
+        "length": 16,
+        "hash": 8021075753942015106
+      }
+    },
+    {
+      "label": "sceSifGetReg",
+      "signature": {
+        "length": 16,
+        "hash": 8371894654946980277
+      }
+    },
+    {
+      "label": "ExecOSD",
+      "signature": {
+        "length": 16,
+        "hash": -2595609756177159724
+      }
+    },
+    {
+      "label": "Deci2Call",
+      "signature": {
+        "length": 16,
+        "hash": -2293499744911365569
+      }
+    },
+    {
+      "label": "PSMode",
+      "signature": {
+        "length": 16,
+        "hash": -1295168177246371634
+      }
+    },
+    {
+      "label": "MachineType",
+      "signature": {
+        "length": 16,
+        "hash": -1462079754115943871
+      }
+    },
+    {
+      "label": "GetMemorySize",
+      "signature": {
+        "length": 16,
+        "hash": 6017159908469467744
+      }
+    },
+    {
+      "label": "kputchar",
+      "signature": {
+        "length": 56,
+        "hash": 28110725265412489
+      }
+    },
+    {
+      "label": "deci2Putchar",
+      "signature": {
+        "length": 176,
+        "hash": -8091897830042754364
+      }
+    },
+    {
+      "label": "serialPutchar",
+      "signature": {
+        "length": 52,
+        "hash": -7213699068797029978
+      }
+    },
+    {
+      "label": "ftoi",
+      "signature": {
+        "length": 144,
+        "hash": 1900304615156060405
+      }
+    },
+    {
+      "label": "itof",
+      "signature": {
+        "length": 200,
+        "hash": 4488705636496733638
+      }
+    },
+    {
+      "label": "printfloat",
+      "signature": {
+        "length": 352,
+        "hash": -8436174066731088134
+      }
+    },
+    {
+      "label": "_printf",
+      "signature": {
+        "length": 1476,
+        "hash": -2642563486727537612
+      }
+    },
+    {
+      "label": "kprintf",
+      "signature": {
+        "length": 56,
+        "hash": 1252476639278041396
+      }
+    },
+    {
+      "label": "scePrintf",
+      "signature": {
+        "length": 96,
+        "hash": -7609987240140377258
+      }
+    },
+    {
+      "label": "_set_sreg",
+      "signature": {
+        "length": 28,
+        "hash": -4586673330195563775
+      }
+    },
+    {
+      "label": "_change_addr",
+      "signature": {
+        "length": 12,
+        "hash": 3773229855983232552
+      }
+    },
+    {
+      "label": "sceSifGetSreg",
+      "signature": {
+        "length": 24,
+        "hash": 8157291012316336713
+      }
+    },
+    {
+      "label": "sceSifSetSreg",
+      "signature": {
+        "length": 28,
+        "hash": 5349895888101592395
+      }
+    },
+    {
+      "label": "sceSifGetDataTable",
+      "signature": {
+        "length": 12,
+        "hash": -7991489227000686336
+      }
+    },
+    {
+      "label": "sceSifInitCmd",
+      "signature": {
+        "length": 668,
+        "hash": -6700045217111488404
+      }
+    },
+    {
+      "label": "sceSifExitCmd",
+      "signature": {
+        "length": 52,
+        "hash": -188683071304722180
+      }
+    },
+    {
+      "label": "sceSifSetCmdBuffer",
+      "signature": {
+        "length": 24,
+        "hash": 3703820240459371719
+      }
+    },
+    {
+      "label": "sceSifSetSysCmdBuffer",
+      "signature": {
+        "length": 24,
+        "hash": 3703820240459371719
+      }
+    },
+    {
+      "label": "sceSifAddCmdHandler",
+      "signature": {
+        "length": 44,
+        "hash": 7911874796686539847
+      }
+    },
+    {
+      "label": "sceSifRemoveCmdHandler",
+      "signature": {
+        "length": 40,
+        "hash": 1799510491397485364
+      }
+    },
+    {
+      "label": "_sceSifSendCmd",
+      "signature": {
+        "length": 308,
+        "hash": -6865190297665973672
+      }
+    },
+    {
+      "label": "sceSifSendCmd",
+      "signature": {
+        "length": 60,
+        "hash": -6945640059976892454
+      }
+    },
+    {
+      "label": "isceSifSendCmd",
+      "signature": {
+        "length": 60,
+        "hash": -6659922236476627778
+      }
+    },
+    {
+      "label": "_sceSifCmdIntrHdlr",
+      "signature": {
+        "length": 288,
+        "hash": 1635207657612068685
+      }
+    },
+    {
+      "label": "sceSifWriteBackDCache",
+      "signature": {
+        "length": 172,
+        "hash": -5543211844207644039
+      }
+    },
+    {
+      "label": "sceSifInitRpc",
+      "signature": {
+        "length": 444,
+        "hash": -1836290814466073055
+      }
+    },
+    {
+      "label": "sceSifExitRpc",
+      "signature": {
+        "length": 36,
+        "hash": -8774789667166393046
+      }
+    },
+    {
+      "label": "_sceRpcGetPacket",
+      "signature": {
+        "length": 164,
+        "hash": 6895455540526649308
+      }
+    },
+    {
+      "label": "_sceRpcFreePacket",
+      "signature": {
+        "length": 28,
+        "hash": 2652748050873887701
+      }
+    },
+    {
+      "label": "_sceRpcGetFPacket",
+      "signature": {
+        "length": 48,
+        "hash": 369491549282770621
+      }
+    },
+    {
+      "label": "_sceRpcGetFPacket2",
+      "signature": {
+        "length": 64,
+        "hash": 1314425276873461895
+      }
+    },
+    {
+      "label": "_request_end",
+      "signature": {
+        "length": 180,
+        "hash": 8273257210182396994
+      }
+    },
+    {
+      "label": "_request_rdata",
+      "signature": {
+        "length": 96,
+        "hash": 5502294379603782291
+      }
+    },
+    {
+      "label": "sceSifGetOtherData",
+      "signature": {
+        "length": 308,
+        "hash": -7905398893795521649
+      }
+    },
+    {
+      "label": "_search_svdata",
+      "signature": {
+        "length": 76,
+        "hash": -2434267389812087389
+      }
+    },
+    {
+      "label": "_request_bind",
+      "signature": {
+        "length": 176,
+        "hash": 6267232113763273885
+      }
+    },
+    {
+      "label": "sceSifBindRpc",
+      "signature": {
+        "length": 284,
+        "hash": -5736126117134623451
+      }
+    },
+    {
+      "label": "_request_call",
+      "signature": {
+        "length": 140,
+        "hash": 7066240257004925556
+      }
+    },
+    {
+      "label": "sceSifCallRpc",
+      "signature": {
+        "length": 436,
+        "hash": -9056063491155153827
+      }
+    },
+    {
+      "label": "sceSifCheckStatRpc",
+      "signature": {
+        "length": 60,
+        "hash": -2450596021149120455
+      }
+    },
+    {
+      "label": "sceSifSetRpcQueue",
+      "signature": {
+        "length": 144,
+        "hash": -3571757001143620746
+      }
+    },
+    {
+      "label": "sceSifRegisterRpc",
+      "signature": {
+        "length": 144,
+        "hash": -3432907715660492923
+      }
+    },
+    {
+      "label": "sceSifRemoveRpc",
+      "signature": {
+        "length": 124,
+        "hash": 1084292404221152876
+      }
+    },
+    {
+      "label": "sceSifRemoveRpcQueue",
+      "signature": {
+        "length": 132,
+        "hash": -7988180624331442038
+      }
+    },
+    {
+      "label": "sceSifGetNextRequest",
+      "signature": {
+        "length": 76,
+        "hash": -5235585135688944787
+      }
+    },
+    {
+      "label": "sceSifExecRequest",
+      "signature": {
+        "length": 476,
+        "hash": 4277100101536877483
+      }
+    },
+    {
+      "label": "sceSifRpcLoop",
+      "signature": {
+        "length": 60,
+        "hash": -8428272090145380863
+      }
+    },
+    {
+      "label": "topThread",
+      "signature": {
+        "length": 124,
+        "hash": 7489990389496386123
+      }
+    },
+    {
+      "label": "InitThread",
+      "signature": {
+        "length": 200,
+        "hash": 4577627413120193705
+      }
+    },
+    {
+      "label": "iWakeupThread",
+      "signature": {
+        "length": 120,
+        "hash": -4590305275336649209
+      }
+    },
+    {
+      "label": "iRotateThreadReadyQueue",
+      "signature": {
+        "length": 96,
+        "hash": -5913135707049263448
+      }
+    },
+    {
+      "label": "DumpTLB",
+      "signature": {
+        "length": 152,
+        "hash": -8857023660366342159
+      }
+    },
+    {
+      "label": "kPutTLBEntry",
+      "signature": {
+        "length": 188,
+        "hash": 1022049828543773012
+      }
+    },
+    {
+      "label": "kSetTLBEntry",
+      "signature": {
+        "length": 72,
+        "hash": 4022275346589332154
+      }
+    },
+    {
+      "label": "kGetTLBEntry",
+      "signature": {
+        "length": 76,
+        "hash": 8026116923219800815
+      }
+    },
+    {
+      "label": "kProbeTLBEntry",
+      "signature": {
+        "length": 76,
+        "hash": 2075556702572533550
+      }
+    },
+    {
+      "label": "kExpandScratchPad",
+      "signature": {
+        "length": 304,
+        "hash": 3810287002208454409
+      }
+    },
+    {
+      "label": "SetTLBHandler",
+      "signature": {
+        "length": 96,
+        "hash": 2826592891942826036
+      }
+    },
+    {
+      "label": "SetDebugHandler",
+      "signature": {
+        "length": 132,
+        "hash": -3001824072292275827
+      }
+    },
+    {
+      "label": "setup",
+      "signature": {
+        "length": 16,
+        "hash": 7611591420835739383
+      }
+    },
+    {
+      "label": "InitTLBFunctions",
+      "signature": {
+        "length": 80,
+        "hash": -624083630948572847
+      }
+    },
+    {
+      "label": "PutTLBEntry",
+      "signature": {
+        "length": 16,
+        "hash": -2824272390285501850
+      }
+    },
+    {
+      "label": "iPutTLBEntry",
+      "signature": {
+        "length": 16,
+        "hash": -3757077772302646451
+      }
+    },
+    {
+      "label": "SetTLBEntry",
+      "signature": {
+        "length": 16,
+        "hash": -2473453489280536679
+      }
+    },
+    {
+      "label": "iSetTLBEntry",
+      "signature": {
+        "length": 16,
+        "hash": -2867003328419640084
+      }
+    },
+    {
+      "label": "GetTLBEntry",
+      "signature": {
+        "length": 16,
+        "hash": 5005786173304874936
+      }
+    },
+    {
+      "label": "iGetTLBEntry",
+      "signature": {
+        "length": 16,
+        "hash": -8405128797186639137
+      }
+    },
+    {
+      "label": "ProbeTLBEntry",
+      "signature": {
+        "length": 16,
+        "hash": 5415270506411150659
+      }
+    },
+    {
+      "label": "iProbeTLBEntry",
+      "signature": {
+        "length": 16,
+        "hash": -7271360766535221906
+      }
+    },
+    {
+      "label": "ExpandScratchPad",
+      "signature": {
+        "length": 16,
+        "hash": 1061143067001355042
+      }
+    },
+    {
+      "label": "kTLBException",
+      "signature": {
+        "length": 256,
+        "hash": 6059910314179319018
+      }
+    },
+    {
+      "label": "kExitTLBHandler",
+      "signature": {
+        "length": 244,
+        "hash": -1631749737231743419
+      }
+    },
+    {
+      "label": "kDebugException",
+      "signature": {
+        "length": 252,
+        "hash": 2425679694177761197
+      }
+    },
+    {
+      "label": "QueueInit",
+      "signature": {
+        "length": 36,
+        "hash": 4335703643845629108
+      }
+    },
+    {
+      "label": "QueuePeekWriteDone",
+      "signature": {
+        "length": 60,
+        "hash": -3023185999297658010
+      }
+    },
+    {
+      "label": "QueuePeekReadDone",
+      "signature": {
+        "length": 60,
+        "hash": -3023185999297658010
+      }
+    },
+    {
+      "label": "sceTtyHandler",
+      "signature": {
+        "length": 400,
+        "hash": -114129839581124339
+      }
+    },
+    {
+      "label": "sceTtyWrite",
+      "signature": {
+        "length": 328,
+        "hash": -7354510336418105699
+      }
+    },
+    {
+      "label": "sceTtyRead",
+      "signature": {
+        "length": 208,
+        "hash": 8764597358034946957
+      }
+    },
+    {
+      "label": "sceTtyInit",
+      "signature": {
+        "length": 188,
+        "hash": 2127398446918570603
+      }
+    }
+  ]
+}

@@ -1,0 +1,621 @@
+{
+  "name": "libdev",
+  "functions": [
+    {
+      "label": "sceDevFontDefault",
+      "signature": {
+        "length": 136,
+        "hash": 3284558844571190046
+      }
+    },
+    {
+      "label": "sceDevFontIdle",
+      "signature": {
+        "length": 64,
+        "hash": -869064267615093643
+      }
+    },
+    {
+      "label": "sceDevFontSetColor",
+      "signature": {
+        "length": 56,
+        "hash": -6932345407161100885
+      }
+    },
+    {
+      "label": "sceDevConsInit",
+      "signature": {
+        "length": 52,
+        "hash": 1931953138952711367
+      }
+    },
+    {
+      "label": "sceDevConsOpen",
+      "signature": {
+        "length": 248,
+        "hash": 8375522596860477083
+      }
+    },
+    {
+      "label": "sceDevConsClose",
+      "signature": {
+        "length": 52,
+        "hash": 7546900661478924625
+      }
+    },
+    {
+      "label": "sceDevConsRef",
+      "signature": {
+        "length": 140,
+        "hash": -7129048976086249171
+      }
+    },
+    {
+      "label": "sceDevConsDraw",
+      "signature": {
+        "length": 456,
+        "hash": 7479954881192125283
+      }
+    },
+    {
+      "label": "sceDevConsDrawS",
+      "signature": {
+        "length": 428,
+        "hash": -8510589527354785804
+      }
+    },
+    {
+      "label": "sceDevConsClear",
+      "signature": {
+        "length": 88,
+        "hash": 3246077843696912028
+      }
+    },
+    {
+      "label": "sceDevConsSetColor",
+      "signature": {
+        "length": 24,
+        "hash": 2972811022012685177
+      }
+    },
+    {
+      "label": "sceDevConsPrintf",
+      "signature": {
+        "length": 596,
+        "hash": 5766031101590584514
+      }
+    },
+    {
+      "label": "sceDevConsLocate",
+      "signature": {
+        "length": 44,
+        "hash": -6004747625773229885
+      }
+    },
+    {
+      "label": "sceDevConsPut",
+      "signature": {
+        "length": 208,
+        "hash": -1510509076144220097
+      }
+    },
+    {
+      "label": "sceDevConsGet",
+      "signature": {
+        "length": 116,
+        "hash": -3457729588018100518
+      }
+    },
+    {
+      "label": "sceDevConsAttribute",
+      "signature": {
+        "length": 8,
+        "hash": 6378668067219104425
+      }
+    },
+    {
+      "label": "sceDevConsClearBox",
+      "signature": {
+        "length": 200,
+        "hash": 8683461852415720591
+      }
+    },
+    {
+      "label": "sceDevConsMove",
+      "signature": {
+        "length": 360,
+        "hash": -3577893497564436879
+      }
+    },
+    {
+      "label": "sceDevConsRollup",
+      "signature": {
+        "length": 172,
+        "hash": -8826373894915692667
+      }
+    },
+    {
+      "label": "sceDevConsMessage",
+      "signature": {
+        "length": 284,
+        "hash": -3563992751281829819
+      }
+    },
+    {
+      "label": "sceDevConsFrame",
+      "signature": {
+        "length": 356,
+        "hash": -5181242953232463546
+      }
+    },
+    {
+      "label": "euc2jis",
+      "signature": {
+        "length": 12,
+        "hash": -4489158511769556110
+      }
+    },
+    {
+      "label": "sjis2jis",
+      "signature": {
+        "length": 116,
+        "hash": 5323136726149396780
+      }
+    },
+    {
+      "label": "sceDevFontRefDirectImage",
+      "signature": {
+        "length": 392,
+        "hash": -5917925415072187378
+      }
+    },
+    {
+      "label": "sceDevFontRefStrN",
+      "signature": {
+        "length": 348,
+        "hash": -635575067009397366
+      }
+    },
+    {
+      "label": "sceDevConsPutc",
+      "signature": {
+        "length": 76,
+        "hash": -1053146023216260277
+      }
+    },
+    {
+      "label": "sceDevConsGetc",
+      "signature": {
+        "length": 80,
+        "hash": 2335363951576312104
+      }
+    },
+    {
+      "label": "sceDevConsPiece",
+      "signature": {
+        "length": 104,
+        "hash": 1414741309159938185
+      }
+    },
+    {
+      "label": "sceDevFontKnj2Chr",
+      "signature": {
+        "length": 48,
+        "hash": -1690525419979973307
+      }
+    },
+    {
+      "label": "chaGifPkOpenGifTag2",
+      "signature": {
+        "length": 32,
+        "hash": -6958314552999378979
+      }
+    },
+    {
+      "label": "chaMemAlloc",
+      "signature": {
+        "length": 380,
+        "hash": -9075231909843960474
+      }
+    },
+    {
+      "label": "chaMemFree",
+      "signature": {
+        "length": 280,
+        "hash": 2939677244091003784
+      }
+    },
+    {
+      "label": "sceDevFont",
+      "signature": {
+        "length": 316,
+        "hash": -8515586744109502814
+      }
+    },
+    {
+      "label": "sceDevGifReset",
+      "signature": {
+        "length": 20,
+        "hash": -6949650227160034567
+      }
+    },
+    {
+      "label": "sceDevGifPause",
+      "signature": {
+        "length": 24,
+        "hash": 2961973952414138335
+      }
+    },
+    {
+      "label": "sceDevGifContinue",
+      "signature": {
+        "length": 56,
+        "hash": -3718320165614515217
+      }
+    },
+    {
+      "label": "sceDevGifPutImtMode",
+      "signature": {
+        "length": 100,
+        "hash": 8978302328101668934
+      }
+    },
+    {
+      "label": "sceDevGifGetImtMode",
+      "signature": {
+        "length": 24,
+        "hash": 5224092847279064244
+      }
+    },
+    {
+      "label": "sceDevGifPutP3msk",
+      "signature": {
+        "length": 104,
+        "hash": -3747591782477396847
+      }
+    },
+    {
+      "label": "sceDevGifGetP3msk",
+      "signature": {
+        "length": 32,
+        "hash": -3952934140118854221
+      }
+    },
+    {
+      "label": "sceDevGifSync",
+      "signature": {
+        "length": 44,
+        "hash": 8650856145467874012
+      }
+    },
+    {
+      "label": "sceDevGifGetCnd",
+      "signature": {
+        "length": 184,
+        "hash": -4046551393711326374
+      }
+    },
+    {
+      "label": "sceDevGifPutFifo",
+      "signature": {
+        "length": 92,
+        "hash": -1988459019484292361
+      }
+    },
+    {
+      "label": "sceDevVif0Reset",
+      "signature": {
+        "length": 36,
+        "hash": -2182964446999517781
+      }
+    },
+    {
+      "label": "sceDevVif0Pause",
+      "signature": {
+        "length": 104,
+        "hash": -4642073976681316481
+      }
+    },
+    {
+      "label": "sceDevVif0Continue",
+      "signature": {
+        "length": 60,
+        "hash": 8933176037673068723
+      }
+    },
+    {
+      "label": "sceDevVif0PutErr",
+      "signature": {
+        "length": 32,
+        "hash": -5858401228138875470
+      }
+    },
+    {
+      "label": "sceDevVif0GetErr",
+      "signature": {
+        "length": 16,
+        "hash": -9054939417687265774
+      }
+    },
+    {
+      "label": "sceDevVif0Sync",
+      "signature": {
+        "length": 80,
+        "hash": 1118042363163302340
+      }
+    },
+    {
+      "label": "sceDevVif0GetCnd",
+      "signature": {
+        "length": 384,
+        "hash": -6923037534280296731
+      }
+    },
+    {
+      "label": "sceDevVif0PutFifo",
+      "signature": {
+        "length": 92,
+        "hash": -3417946419669720561
+      }
+    },
+    {
+      "label": "sceDevVif1Reset",
+      "signature": {
+        "length": 36,
+        "hash": -4893312203659590957
+      }
+    },
+    {
+      "label": "sceDevVif1Pause",
+      "signature": {
+        "length": 104,
+        "hash": 5023629757311273187
+      }
+    },
+    {
+      "label": "sceDevVif1Continue",
+      "signature": {
+        "length": 60,
+        "hash": -2627787548030073937
+      }
+    },
+    {
+      "label": "sceDevVif1PutErr",
+      "signature": {
+        "length": 32,
+        "hash": 7472663391038399702
+      }
+    },
+    {
+      "label": "sceDevVif1GetErr",
+      "signature": {
+        "length": 16,
+        "hash": 4276125201490009398
+      }
+    },
+    {
+      "label": "sceDevVif1Sync",
+      "signature": {
+        "length": 80,
+        "hash": 6939731959158528736
+      }
+    },
+    {
+      "label": "sceDevVif1GetCnd",
+      "signature": {
+        "length": 472,
+        "hash": -5339690493833101876
+      }
+    },
+    {
+      "label": "sceDevVif1PutFifo",
+      "signature": {
+        "length": 92,
+        "hash": 1999419051350785691
+      }
+    },
+    {
+      "label": "sceDevVif1GetFifo",
+      "signature": {
+        "length": 96,
+        "hash": 2112920019043675951
+      }
+    },
+    {
+      "label": "sceDevVu0CheckBusy",
+      "signature": {
+        "length": 20,
+        "hash": 4896189574235643822
+      }
+    },
+    {
+      "label": "sceDevVu0Reset",
+      "signature": {
+        "length": 20,
+        "hash": -9095914834951928760
+      }
+    },
+    {
+      "label": "sceDevVu0Pause",
+      "signature": {
+        "length": 96,
+        "hash": 274644374595001730
+      }
+    },
+    {
+      "label": "sceDevVu0Continue",
+      "signature": {
+        "length": 80,
+        "hash": 2634639713893210288
+      }
+    },
+    {
+      "label": "sceDevVu0PutDBit",
+      "signature": {
+        "length": 48,
+        "hash": 4069137219887223142
+      }
+    },
+    {
+      "label": "sceDevVu0PutTBit",
+      "signature": {
+        "length": 48,
+        "hash": -5608136310398746334
+      }
+    },
+    {
+      "label": "sceDevVu0GetDBit",
+      "signature": {
+        "length": 16,
+        "hash": 310710949693639032
+      }
+    },
+    {
+      "label": "sceDevVu0GetTBit",
+      "signature": {
+        "length": 16,
+        "hash": 23660763022806584
+      }
+    },
+    {
+      "label": "sceDevVu0Sync",
+      "signature": {
+        "length": 64,
+        "hash": -3779993579628398620
+      }
+    },
+    {
+      "label": "sceDevVu0Exec",
+      "signature": {
+        "length": 16,
+        "hash": 1703770494391794421
+      }
+    },
+    {
+      "label": "sceDevVu0GetTpc",
+      "signature": {
+        "length": 12,
+        "hash": 4253249536919798392
+      }
+    },
+    {
+      "label": "sceDevVu0GetCnd",
+      "signature": {
+        "length": 224,
+        "hash": -54264315913132453
+      }
+    },
+    {
+      "label": "sceDevVu0PutCnd",
+      "signature": {
+        "length": 364,
+        "hash": -7890688537314506564
+      }
+    },
+    {
+      "label": "sceVuCheckBusy",
+      "signature": {
+        "length": 44,
+        "hash": 4808142569370941358
+      }
+    },
+    {
+      "label": "sceVu0MemWriteQ",
+      "signature": {
+        "length": 64,
+        "hash": -5481730873666765278
+      }
+    },
+    {
+      "label": "sceVu0MemReadQ",
+      "signature": {
+        "length": 68,
+        "hash": 3373471708574388470
+      }
+    },
+    {
+      "label": "sceDevVu1Reset",
+      "signature": {
+        "length": 20,
+        "hash": 8829500946179362432
+      }
+    },
+    {
+      "label": "sceDevVu1Pause",
+      "signature": {
+        "length": 96,
+        "hash": 5782514312327953376
+      }
+    },
+    {
+      "label": "sceDevVu1Continue",
+      "signature": {
+        "length": 80,
+        "hash": 2634639713893210288
+      }
+    },
+    {
+      "label": "sceDevVu1PutDBit",
+      "signature": {
+        "length": 48,
+        "hash": 7988481915653676910
+      }
+    },
+    {
+      "label": "sceDevVu1PutTBit",
+      "signature": {
+        "length": 48,
+        "hash": -3712572708796865838
+      }
+    },
+    {
+      "label": "sceDevVu1GetDBit",
+      "signature": {
+        "length": 16,
+        "hash": -7683698636710665690
+      }
+    },
+    {
+      "label": "sceDevVu1GetTBit",
+      "signature": {
+        "length": 16,
+        "hash": -8215632053168210458
+      }
+    },
+    {
+      "label": "sceDevVu1Sync",
+      "signature": {
+        "length": 72,
+        "hash": -6123881670007143640
+      }
+    },
+    {
+      "label": "sceDevVu1Exec",
+      "signature": {
+        "length": 16,
+        "hash": 474372366616194086
+      }
+    },
+    {
+      "label": "sceDevVu1GetTpc",
+      "signature": {
+        "length": 36,
+        "hash": 5822662265062609925
+      }
+    },
+    {
+      "label": "sceDevVu1GetCnd",
+      "signature": {
+        "length": 396,
+        "hash": -6585390530196675409
+      }
+    },
+    {
+      "label": "sceDevVu1PutCnd",
+      "signature": {
+        "length": 328,
+        "hash": 7006941978209879971
+      }
+    }
+  ]
+}

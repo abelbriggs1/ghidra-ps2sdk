@@ -1,0 +1,54 @@
+{
+  "name": "libmsin",
+  "functions": [
+    {
+      "label": "sceMSIn_Init",
+      "signature": {
+        "length": 128,
+        "hash": 2683187139536995197
+      }
+    },
+    {
+      "label": "sceMSIn_ATick",
+      "signature": {
+        "length": 8,
+        "hash": 171897667264600809
+      }
+    },
+    {
+      "label": "sceMSIn_Load",
+      "signature": {
+        "length": 8,
+        "hash": 171897667264600809
+      }
+    },
+    {
+      "label": "put_message",
+      "signature": {
+        "length": 148,
+        "hash": 8582617649998627673
+      }
+    },
+    {
+      "label": "sceMSIn_PutMsg",
+      "signature": {
+        "length": 176,
+        "hash": -3801512498766202623
+      }
+    },
+    {
+      "label": "sceMSIn_PutExcMsg",
+      "signature": {
+        "length": 120,
+        "hash": -1156367298246509339
+      }
+    },
+    {
+      "label": "sceMSIn_PutHsMsg",
+      "signature": {
+        "length": 72,
+        "hash": 3986346724138328549
+      }
+    }
+  ]
+}

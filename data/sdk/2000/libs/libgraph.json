@@ -1,0 +1,229 @@
+{
+  "name": "libgraph",
+  "functions": [
+    {
+      "label": "sceGsResetGraph",
+      "signature": {
+        "length": 272,
+        "hash": 3699226705200006511
+      }
+    },
+    {
+      "label": "sceGsGetGParam",
+      "signature": {
+        "length": 12,
+        "hash": -7991489227000686336
+      }
+    },
+    {
+      "label": "sceGsResetPath",
+      "signature": {
+        "length": 104,
+        "hash": 8670327022734147055
+      }
+    },
+    {
+      "label": "sceGsSetDefDispEnv",
+      "signature": {
+        "length": 624,
+        "hash": -2025490957871265868
+      }
+    },
+    {
+      "label": "sceGsPutDispEnv",
+      "signature": {
+        "length": 188,
+        "hash": 8020578919320048193
+      }
+    },
+    {
+      "label": "sceGszbufaddr",
+      "signature": {
+        "length": 200,
+        "hash": -8390112624826755722
+      }
+    },
+    {
+      "label": "sceGsSetDefDrawEnv",
+      "signature": {
+        "length": 484,
+        "hash": -33746496349362092
+      }
+    },
+    {
+      "label": "sceGsSetDefClear",
+      "signature": {
+        "length": 260,
+        "hash": 3630983060424521812
+      }
+    },
+    {
+      "label": "sceGsPutDrawEnv",
+      "signature": {
+        "length": 232,
+        "hash": -3968620414559211483
+      }
+    },
+    {
+      "label": "sceGsSetDefDBuff",
+      "signature": {
+        "length": 664,
+        "hash": -9090347354953245044
+      }
+    },
+    {
+      "label": "sceGsSwapDBuff",
+      "signature": {
+        "length": 92,
+        "hash": 5984128036144377219
+      }
+    },
+    {
+      "label": "sceGsSyncV",
+      "signature": {
+        "length": 148,
+        "hash": -8724356508384526833
+      }
+    },
+    {
+      "label": "sceGsSyncPath",
+      "signature": {
+        "length": 788,
+        "hash": -4291002280041213393
+      }
+    },
+    {
+      "label": "sceGsSetDefTexEnv",
+      "signature": {
+        "length": 268,
+        "hash": 3185745855146852765
+      }
+    },
+    {
+      "label": "sceGsSetDefAlphaEnv",
+      "signature": {
+        "length": 92,
+        "hash": -6782481955417218204
+      }
+    },
+    {
+      "label": "sceGsSetDefLoadImage",
+      "signature": {
+        "length": 484,
+        "hash": -7397046825712216318
+      }
+    },
+    {
+      "label": "sceGsSetDefStoreImage",
+      "signature": {
+        "length": 320,
+        "hash": -38815727779160906
+      }
+    },
+    {
+      "label": "sceGsExecLoadImage",
+      "signature": {
+        "length": 380,
+        "hash": -4235445725813322555
+      }
+    },
+    {
+      "label": "sceGsExecStoreImage",
+      "signature": {
+        "length": 1676,
+        "hash": -7503827557501200994
+      }
+    },
+    {
+      "label": "sceGsSyncVCallback",
+      "signature": {
+        "length": 96,
+        "hash": -2430628502202667972
+      }
+    },
+    {
+      "label": "sceGsPutIMR",
+      "signature": {
+        "length": 60,
+        "hash": 5806878106631585384
+      }
+    },
+    {
+      "label": "sceGsSetHalfOffset",
+      "signature": {
+        "length": 136,
+        "hash": 7905789614754399201
+      }
+    },
+    {
+      "label": "sceGsSetDefDrawEnv2",
+      "signature": {
+        "length": 480,
+        "hash": -8276371671416291538
+      }
+    },
+    {
+      "label": "sceGsSetDefClear2",
+      "signature": {
+        "length": 260,
+        "hash": 6209165152940224893
+      }
+    },
+    {
+      "label": "sceGsSetDefTexEnv2",
+      "signature": {
+        "length": 268,
+        "hash": 3345582890331888524
+      }
+    },
+    {
+      "label": "sceGsSetDefAlphaEnv2",
+      "signature": {
+        "length": 92,
+        "hash": 8480160150779737780
+      }
+    },
+    {
+      "label": "sceGsSetHalfOffset2",
+      "signature": {
+        "length": 136,
+        "hash": 7905789614754399201
+      }
+    },
+    {
+      "label": "sceGsSetDefDBuffDc",
+      "signature": {
+        "length": 740,
+        "hash": -8766889600985920042
+      }
+    },
+    {
+      "label": "sceGsSwapDBuffDc",
+      "signature": {
+        "length": 92,
+        "hash": 5984128036144377219
+      }
+    },
+    {
+      "label": "sceGsGetIMR",
+      "signature": {
+        "length": 28,
+        "hash": -930751561667030448
+      }
+    },
+    {
+      "label": "isceGsPutIMR",
+      "signature": {
+        "length": 60,
+        "hash": 5806878106631585384
+      }
+    },
+    {
+      "label": "isceGsGetIMR",
+      "signature": {
+        "length": 28,
+        "hash": -930751561667030448
+      }
+    }
+  ]
+}

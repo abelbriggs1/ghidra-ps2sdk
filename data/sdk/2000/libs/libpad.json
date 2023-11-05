@@ -1,0 +1,215 @@
+{
+  "name": "libpad",
+  "functions": [
+    {
+      "label": "_send_to_iop",
+      "signature": {
+        "length": 132,
+        "hash": -1606273422088824061
+      }
+    },
+    {
+      "label": "scePadInit",
+      "signature": {
+        "length": 300,
+        "hash": 3122019846805078263
+      }
+    },
+    {
+      "label": "scePadInit2",
+      "signature": {
+        "length": 156,
+        "hash": 8476909496433933687
+      }
+    },
+    {
+      "label": "scePadEnd",
+      "signature": {
+        "length": 128,
+        "hash": -7829840855525732627
+      }
+    },
+    {
+      "label": "scePadPortOpen",
+      "signature": {
+        "length": 340,
+        "hash": -4924438565916998387
+      }
+    },
+    {
+      "label": "scePadPortClose",
+      "signature": {
+        "length": 116,
+        "hash": -8688930370012816062
+      }
+    },
+    {
+      "label": "scePadGetDmaStr",
+      "signature": {
+        "length": 96,
+        "hash": -8482283926879476223
+      }
+    },
+    {
+      "label": "scePadGetFrameCount",
+      "signature": {
+        "length": 32,
+        "hash": 58851706452540590
+      }
+    },
+    {
+      "label": "scePadRead",
+      "signature": {
+        "length": 68,
+        "hash": -2180941697301719812
+      }
+    },
+    {
+      "label": "scePadGetState",
+      "signature": {
+        "length": 64,
+        "hash": 4262740684728937121
+      }
+    },
+    {
+      "label": "scePadStateIntToStr",
+      "signature": {
+        "length": 52,
+        "hash": 8657967048043601607
+      }
+    },
+    {
+      "label": "scePadSetReqState",
+      "signature": {
+        "length": 44,
+        "hash": 2099816033491560314
+      }
+    },
+    {
+      "label": "scePadGetReqState",
+      "signature": {
+        "length": 32,
+        "hash": -8198048109332677990
+      }
+    },
+    {
+      "label": "scePadReqIntToStr",
+      "signature": {
+        "length": 52,
+        "hash": -2499498192337964117
+      }
+    },
+    {
+      "label": "scePadInfoAct",
+      "signature": {
+        "length": 240,
+        "hash": -1838261384941417004
+      }
+    },
+    {
+      "label": "scePadInfoComb",
+      "signature": {
+        "length": 228,
+        "hash": 4035500450571843403
+      }
+    },
+    {
+      "label": "scePadInfoMode",
+      "signature": {
+        "length": 264,
+        "hash": 3042973168108482945
+      }
+    },
+    {
+      "label": "scePadSetMainMode",
+      "signature": {
+        "length": 180,
+        "hash": 5152151569623070148
+      }
+    },
+    {
+      "label": "scePadSetActDirect",
+      "signature": {
+        "length": 152,
+        "hash": 413074122980243259
+      }
+    },
+    {
+      "label": "scePadSetActAlign",
+      "signature": {
+        "length": 216,
+        "hash": -3502173643496222682
+      }
+    },
+    {
+      "label": "scePadGetButtonMask",
+      "signature": {
+        "length": 108,
+        "hash": -1262368104126839293
+      }
+    },
+    {
+      "label": "scePadSetButtonInfo",
+      "signature": {
+        "length": 176,
+        "hash": -2005299437402020462
+      }
+    },
+    {
+      "label": "scePadInfoPressMode",
+      "signature": {
+        "length": 44,
+        "hash": 2366810964424074592
+      }
+    },
+    {
+      "label": "scePadEnterPressMode",
+      "signature": {
+        "length": 28,
+        "hash": 2970181164946429154
+      }
+    },
+    {
+      "label": "scePadExitPressMode",
+      "signature": {
+        "length": 28,
+        "hash": -6591627910692995411
+      }
+    },
+    {
+      "label": "scePadSetVrefParam",
+      "signature": {
+        "length": 204,
+        "hash": -4190247134017219483
+      }
+    },
+    {
+      "label": "scePadGetPortMax",
+      "signature": {
+        "length": 100,
+        "hash": -6767203156976198112
+      }
+    },
+    {
+      "label": "scePadGetSlotMax",
+      "signature": {
+        "length": 104,
+        "hash": -1477902849217478594
+      }
+    },
+    {
+      "label": "scePadGetModVersion",
+      "signature": {
+        "length": 100,
+        "hash": 7130244849760474446
+      }
+    },
+    {
+      "label": "scePadChangeThreadPriority",
+      "signature": {
+        "length": 108,
+        "hash": -206559036074049543
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "name": "libmc",
+  "functions": [
+    {
+      "label": "sceMcInit",
+      "signature": {
+        "length": 340,
+        "hash": -4189183223277681297
+      }
+    },
+    {
+      "label": "_lmcGetClientPtr",
+      "signature": {
+        "length": 36,
+        "hash": -951030660800443839
+      }
+    },
+    {
+      "label": "sceMcChangeThreadPriority",
+      "signature": {
+        "length": 140,
+        "hash": 6705034092734513586
+      }
+    },
+    {
+      "label": "sceMcGetSlotMax",
+      "signature": {
+        "length": 136,
+        "hash": -8612910013534959958
+      }
+    },
+    {
+      "label": "sceMcOpen",
+      "signature": {
+        "length": 228,
+        "hash": -2063415813380920275
+      }
+    },
+    {
+      "label": "sceMcMkdir",
+      "signature": {
+        "length": 52,
+        "hash": -523114631905327645
+      }
+    },
+    {
+      "label": "sceMcClose",
+      "signature": {
+        "length": 140,
+        "hash": 9199608718768892838
+      }
+    },
+    {
+      "label": "sceMcSeek",
+      "signature": {
+        "length": 144,
+        "hash": -8751516600958128739
+      }
+    },
+    {
+      "label": "mceIntrReadFixAlign",
+      "signature": {
+        "length": 144,
+        "hash": -2865953618880851225
+      }
+    },
+    {
+      "label": "sceMcRead",
+      "signature": {
+        "length": 216,
+        "hash": -6663742943473892806
+      }
+    },
+    {
+      "label": "sceMcWrite",
+      "signature": {
+        "length": 320,
+        "hash": 7886429362438262255
+      }
+    },
+    {
+      "label": "sceMcSync",
+      "signature": {
+        "length": 232,
+        "hash": 8943414081083660639
+      }
+    },
+    {
+      "label": "mceGetInfoApdx",
+      "signature": {
+        "length": 84,
+        "hash": 4636260884706948356
+      }
+    },
+    {
+      "label": "sceMcGetInfo",
+      "signature": {
+        "length": 308,
+        "hash": 62166721059258058
+      }
+    },
+    {
+      "label": "sceMcGetDir",
+      "signature": {
+        "length": 232,
+        "hash": -9126189696450786859
+      }
+    },
+    {
+      "label": "mceStorePwd",
+      "signature": {
+        "length": 132,
+        "hash": 6045130694216792460
+      }
+    },
+    {
+      "label": "sceMcChdir",
+      "signature": {
+        "length": 232,
+        "hash": 1919143908537246417
+      }
+    },
+    {
+      "label": "sceMcFormat",
+      "signature": {
+        "length": 144,
+        "hash": 4234127004490138993
+      }
+    },
+    {
+      "label": "sceMcDelete",
+      "signature": {
+        "length": 216,
+        "hash": -4603900343866184759
+      }
+    },
+    {
+      "label": "sceMcFlush",
+      "signature": {
+        "length": 140,
+        "hash": 7410550524028365126
+      }
+    },
+    {
+      "label": "sceMcSetFileInfo",
+      "signature": {
+        "length": 340,
+        "hash": 2637943467940876384
+      }
+    },
+    {
+      "label": "sceMcRename",
+      "signature": {
+        "length": 252,
+        "hash": -7573591769403701563
+      }
+    },
+    {
+      "label": "sceMcUnformat",
+      "signature": {
+        "length": 144,
+        "hash": -4007040782301824487
+      }
+    },
+    {
+      "label": "sceMcGetEntSpace",
+      "signature": {
+        "length": 184,
+        "hash": -3584515923932103586
+      }
+    }
+  ]
+}

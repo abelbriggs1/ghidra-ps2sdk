@@ -1,0 +1,40 @@
+{
+  "name": "liblout",
+  "functions": [
+    {
+      "label": "initZeroBuf",
+      "signature": {
+        "length": 60,
+        "hash": -5135138036039339898
+      }
+    },
+    {
+      "label": "clrIopBuf",
+      "signature": {
+        "length": 192,
+        "hash": 5899516331193365657
+      }
+    },
+    {
+      "label": "sceLout_Init",
+      "signature": {
+        "length": 484,
+        "hash": 3921811497903403172
+      }
+    },
+    {
+      "label": "setupDma",
+      "signature": {
+        "length": 72,
+        "hash": -3415842398371208709
+      }
+    },
+    {
+      "label": "sceLout_ATick",
+      "signature": {
+        "length": 900,
+        "hash": 7498205614298293278
+      }
+    }
+  ]
+}

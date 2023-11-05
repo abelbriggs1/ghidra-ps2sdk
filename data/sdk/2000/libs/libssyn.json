@@ -1,0 +1,1265 @@
+{
+  "name": "libssyn",
+  "functions": [
+    {
+      "label": "sceSynthesizerAmpProcNI",
+      "signature": {
+        "length": 172,
+        "hash": -2696601087733378831
+      }
+    },
+    {
+      "label": "sceSynthesizerAmpProcI",
+      "signature": {
+        "length": 212,
+        "hash": -3131861260324581627
+      }
+    },
+    {
+      "label": "popVoiceFromPLink",
+      "signature": {
+        "length": 52,
+        "hash": -3574420394689708379
+      }
+    },
+    {
+      "label": "sceSynthesizerAssignNoteOn",
+      "signature": {
+        "length": 1208,
+        "hash": 725956360713891792
+      }
+    },
+    {
+      "label": "sceSynthesizerAssignNoteOff",
+      "signature": {
+        "length": 584,
+        "hash": -1024326114673576569
+      }
+    },
+    {
+      "label": "sceSynthesizerAssignHoldChange",
+      "signature": {
+        "length": 28,
+        "hash": -8530928946581347366
+      }
+    },
+    {
+      "label": "sceSynthesizerAssignAllNoteOff",
+      "signature": {
+        "length": 92,
+        "hash": -4601225639398732655
+      }
+    },
+    {
+      "label": "sceSynthesizerAssignAllSoundOff",
+      "signature": {
+        "length": 136,
+        "hash": 3526703108537635453
+      }
+    },
+    {
+      "label": "truncateVoice",
+      "signature": {
+        "length": 180,
+        "hash": 6363311422596857438
+      }
+    },
+    {
+      "label": "turnOffVoice",
+      "signature": {
+        "length": 176,
+        "hash": -896413518769482680
+      }
+    },
+    {
+      "label": "mkAssPartInfo",
+      "signature": {
+        "length": 752,
+        "hash": 8272993379604134547
+      }
+    },
+    {
+      "label": "getLowestPriorityVoice",
+      "signature": {
+        "length": 452,
+        "hash": 1913890005981433381
+      }
+    },
+    {
+      "label": "turnOffSameKeyAList",
+      "signature": {
+        "length": 156,
+        "hash": -3484490623214385215
+      }
+    },
+    {
+      "label": "turnOffSameKey",
+      "signature": {
+        "length": 192,
+        "hash": -7131866684268534473
+      }
+    },
+    {
+      "label": "turnOffExcGroupAList",
+      "signature": {
+        "length": 164,
+        "hash": 4358160564665639299
+      }
+    },
+    {
+      "label": "turnOffExcGroup",
+      "signature": {
+        "length": 180,
+        "hash": 7353595798921559171
+      }
+    },
+    {
+      "label": "phaseChange2ReleaseAll",
+      "signature": {
+        "length": 200,
+        "hash": 5139133531017066964
+      }
+    },
+    {
+      "label": "phaseChange2HoldAll",
+      "signature": {
+        "length": 108,
+        "hash": -2495492035070111524
+      }
+    },
+    {
+      "label": "phaseChange2TruncateAll",
+      "signature": {
+        "length": 88,
+        "hash": -6244778925459429449
+      }
+    },
+    {
+      "label": "sceSynthesizerDmaSpr",
+      "signature": {
+        "length": 52,
+        "hash": 6864774633529231050
+      }
+    },
+    {
+      "label": "sceSynthesizerDmaFromSPR",
+      "signature": {
+        "length": 148,
+        "hash": -2988806866667071330
+      }
+    },
+    {
+      "label": "sceSynthesizerDmaToSPR",
+      "signature": {
+        "length": 156,
+        "hash": 8299696296846715058
+      }
+    },
+    {
+      "label": "sceSynthesizerWaitDmaFromSPR",
+      "signature": {
+        "length": 20,
+        "hash": -6739847531374196005
+      }
+    },
+    {
+      "label": "sceSynthesizerWaitDmaToSPR",
+      "signature": {
+        "length": 20,
+        "hash": -6739847531374196005
+      }
+    },
+    {
+      "label": "sceSynthesizerSetupDma",
+      "signature": {
+        "length": 56,
+        "hash": -4276990241033655158
+      }
+    },
+    {
+      "label": "sceSynthesizerRestorDma",
+      "signature": {
+        "length": 48,
+        "hash": -7877705222593757402
+      }
+    },
+    {
+      "label": "sceSynthesizerSetuptEnv",
+      "signature": {
+        "length": 316,
+        "hash": -2942426115873929038
+      }
+    },
+    {
+      "label": "sceSynthesizerCalcEnv",
+      "signature": {
+        "length": 124,
+        "hash": 9196421646353967960
+      }
+    },
+    {
+      "label": "sceSynthesizerSetupReleaseEnv",
+      "signature": {
+        "length": 256,
+        "hash": -2157289134201348538
+      }
+    },
+    {
+      "label": "sceSynthesizerSetupTruncateTvaEnv",
+      "signature": {
+        "length": 176,
+        "hash": 3564817112121809169
+      }
+    },
+    {
+      "label": "sceSynthesizerSetupTruncateTvfPitchEnv",
+      "signature": {
+        "length": 12,
+        "hash": -7113408607613827868
+      }
+    },
+    {
+      "label": "sceSynthesizerAllocateSpr",
+      "signature": {
+        "length": 212,
+        "hash": -532889730258276503
+      }
+    },
+    {
+      "label": "sceSynthesizerInitializeEnv",
+      "signature": {
+        "length": 72,
+        "hash": -2295357147866265561
+      }
+    },
+    {
+      "label": "sceSynthsizerInitializeTvf",
+      "signature": {
+        "length": 136,
+        "hash": 1168805815113251737
+      }
+    },
+    {
+      "label": "sceSynthsizerInitializeTva",
+      "signature": {
+        "length": 40,
+        "hash": -2186526287898937152
+      }
+    },
+    {
+      "label": "sceSynthesizerInitializeVoiceArray",
+      "signature": {
+        "length": 176,
+        "hash": -5765456465886582560
+      }
+    },
+    {
+      "label": "sceSynthesizerInitializeDma",
+      "signature": {
+        "length": 68,
+        "hash": -125842686024385355
+      }
+    },
+    {
+      "label": "sceSynthesizerInitializePart",
+      "signature": {
+        "length": 392,
+        "hash": 1454927034861619594
+      }
+    },
+    {
+      "label": "sceSynthesizerInitializeOutPort",
+      "signature": {
+        "length": 100,
+        "hash": 4676115370774863848
+      }
+    },
+    {
+      "label": "sceSynthesizerInitialize",
+      "signature": {
+        "length": 524,
+        "hash": -7080383538472790891
+      }
+    },
+    {
+      "label": "sceSynthesizerRegisterSynthesizerParameter",
+      "signature": {
+        "length": 44,
+        "hash": 2806417551627656447
+      }
+    },
+    {
+      "label": "sceSynthesizerLfoNone",
+      "signature": {
+        "length": 12,
+        "hash": -2444389300890004168
+      }
+    },
+    {
+      "label": "sceSynthesizerLfoSawUp",
+      "signature": {
+        "length": 20,
+        "hash": 4684872499046954404
+      }
+    },
+    {
+      "label": "sceSynthesizerLfoSawDown",
+      "signature": {
+        "length": 20,
+        "hash": 93611000712767616
+      }
+    },
+    {
+      "label": "sceSynthSizerLfoTriangle",
+      "signature": {
+        "length": 76,
+        "hash": 8012824712129399795
+      }
+    },
+    {
+      "label": "sceSynthesizerLfoSquare",
+      "signature": {
+        "length": 44,
+        "hash": -4765513454702409591
+      }
+    },
+    {
+      "label": "sceSynthsizerLfoNoise",
+      "signature": {
+        "length": 68,
+        "hash": -1590107701351766094
+      }
+    },
+    {
+      "label": "sceSynthesizerLfoProc",
+      "signature": {
+        "length": 160,
+        "hash": 1016314383589422552
+      }
+    },
+    {
+      "label": "sceSynthesizerSetupLfo",
+      "signature": {
+        "length": 316,
+        "hash": -4612826192288378149
+      }
+    },
+    {
+      "label": "sceSynthesizerSetupNewNoise",
+      "signature": {
+        "length": 76,
+        "hash": -1104389542213822896
+      }
+    },
+    {
+      "label": "sceSynthesizerTransposeMatrix",
+      "signature": {
+        "length": 120,
+        "hash": 3284290234955595573
+      }
+    },
+    {
+      "label": "sceSynthesizerCopyOutput",
+      "signature": {
+        "length": 200,
+        "hash": -7699898988340375100
+      }
+    },
+    {
+      "label": "sceSynthesizerPrepareData",
+      "signature": {
+        "length": 848,
+        "hash": 8617952557223405841
+      }
+    },
+    {
+      "label": "clr_nrpm_mod",
+      "signature": {
+        "length": 48,
+        "hash": -8998706807915184222
+      }
+    },
+    {
+      "label": "clr_nrpm_allmod",
+      "signature": {
+        "length": 16,
+        "hash": -9048663225790438464
+      }
+    },
+    {
+      "label": "sceSynthesizerResetPart",
+      "signature": {
+        "length": 104,
+        "hash": -7044197490567706731
+      }
+    },
+    {
+      "label": "sceSynthesizerClearKeyMap",
+      "signature": {
+        "length": 8,
+        "hash": 1021744845691481468
+      }
+    },
+    {
+      "label": "fillkmap",
+      "signature": {
+        "length": 48,
+        "hash": -1818709159528684831
+      }
+    },
+    {
+      "label": "clr_drum_nrpn",
+      "signature": {
+        "length": 60,
+        "hash": 1424507380811307716
+      }
+    },
+    {
+      "label": "sceSynthsizerGetMeloPatch",
+      "signature": {
+        "length": 96,
+        "hash": 2165319227849962455
+      }
+    },
+    {
+      "label": "sceSynthsizerGetDrumPatch",
+      "signature": {
+        "length": 76,
+        "hash": 3031337567420630109
+      }
+    },
+    {
+      "label": "sceSynthesizerGetPartial",
+      "signature": {
+        "length": 44,
+        "hash": -5040083357723334989
+      }
+    },
+    {
+      "label": "sceSynthesizerGetSampleParam",
+      "signature": {
+        "length": 172,
+        "hash": 7135749050919502911
+      }
+    },
+    {
+      "label": "sceSynthesizerSelectPatch",
+      "signature": {
+        "length": 148,
+        "hash": 403793772198173024
+      }
+    },
+    {
+      "label": "changeVoiceFloatStateOnMyPart",
+      "signature": {
+        "length": 264,
+        "hash": -3325954172212309562
+      }
+    },
+    {
+      "label": "_callback_sceSynthesizerChangePartPitchBend",
+      "signature": {
+        "length": 8,
+        "hash": 6385509228568508692
+      }
+    },
+    {
+      "label": "ChangePitchBendAndDepth",
+      "signature": {
+        "length": 28,
+        "hash": -7490351867424401407
+      }
+    },
+    {
+      "label": "sceSynthesizerChangePartPitchBend",
+      "signature": {
+        "length": 64,
+        "hash": 7361104551588507632
+      }
+    },
+    {
+      "label": "sceSynthesizerChangePartBendSens",
+      "signature": {
+        "length": 60,
+        "hash": -5880586434735706156
+      }
+    },
+    {
+      "label": "_callback_sceSynthesizerChangePartVolumeExpression",
+      "signature": {
+        "length": 8,
+        "hash": 6385509228568508692
+      }
+    },
+    {
+      "label": "ChangePartVolumeExpression",
+      "signature": {
+        "length": 104,
+        "hash": 6823924908259591465
+      }
+    },
+    {
+      "label": "sceSynthesizerChangePartVolume",
+      "signature": {
+        "length": 32,
+        "hash": -1105924573471439385
+      }
+    },
+    {
+      "label": "sceSynthesizerChangePartExpression",
+      "signature": {
+        "length": 32,
+        "hash": -1105924573471439385
+      }
+    },
+    {
+      "label": "sceSynthesizerChangePartModuration",
+      "signature": {
+        "length": 288,
+        "hash": 393245228928541243
+      }
+    },
+    {
+      "label": "sceSynthesizerChangePortamento",
+      "signature": {
+        "length": 52,
+        "hash": -7254709678942119347
+      }
+    },
+    {
+      "label": "sceSynthesizerChangePortamentoTime",
+      "signature": {
+        "length": 20,
+        "hash": 1742193431335544987
+      }
+    },
+    {
+      "label": "sceSynthesizerChangePanpot",
+      "signature": {
+        "length": 72,
+        "hash": 1025929198968239248
+      }
+    },
+    {
+      "label": "_callback_sceSynthesizerChangeEffectSend0",
+      "signature": {
+        "length": 8,
+        "hash": 6385509228568508692
+      }
+    },
+    {
+      "label": "_callback_sceSynthesizerChangeEffectSend1",
+      "signature": {
+        "length": 8,
+        "hash": 6385509228568508692
+      }
+    },
+    {
+      "label": "_callback_sceSynthesizerChangeEffectSend2",
+      "signature": {
+        "length": 8,
+        "hash": 6385509228568508692
+      }
+    },
+    {
+      "label": "_callback_sceSynthesizerChangeEffectSend3",
+      "signature": {
+        "length": 8,
+        "hash": 6385509228568508692
+      }
+    },
+    {
+      "label": "sceSynthesizerChangeEffectSend",
+      "signature": {
+        "length": 168,
+        "hash": 3217990344063188835
+      }
+    },
+    {
+      "label": "sceSynthesizerChangeOutAttrib",
+      "signature": {
+        "length": 24,
+        "hash": 2445327878974475288
+      }
+    },
+    {
+      "label": "sceSynthesizerChangeOutVol",
+      "signature": {
+        "length": 8,
+        "hash": 1030142915506054061
+      }
+    },
+    {
+      "label": "sceSynthesizerSetRVoice",
+      "signature": {
+        "length": 8,
+        "hash": 6378668067219104425
+      }
+    },
+    {
+      "label": "_callback_sceSynthesizerChangeNrpnCutOff",
+      "signature": {
+        "length": 8,
+        "hash": 6385509228568508692
+      }
+    },
+    {
+      "label": "sceSynthesizerChangeNrpnCutOff",
+      "signature": {
+        "length": 76,
+        "hash": 397453018267773207
+      }
+    },
+    {
+      "label": "sceSynthesizerChangeNrpnLfoRate",
+      "signature": {
+        "length": 212,
+        "hash": 4361986932745115947
+      }
+    },
+    {
+      "label": "_callback_sceSynthesizerChangeNrpnLfoDepth",
+      "signature": {
+        "length": 8,
+        "hash": 6385509228568508692
+      }
+    },
+    {
+      "label": "sceSynthesizerChangeNrpnLfoDepth",
+      "signature": {
+        "length": 60,
+        "hash": 6919579645268708159
+      }
+    },
+    {
+      "label": "changeVoiceFloatHsStateOnMyPart",
+      "signature": {
+        "length": 288,
+        "hash": -7879530276655939603
+      }
+    },
+    {
+      "label": "sceSynthesizerChangeHsPanpot",
+      "signature": {
+        "length": 56,
+        "hash": 3587266473660036710
+      }
+    },
+    {
+      "label": "sceSynthesizerGetPartOutLevel",
+      "signature": {
+        "length": 72,
+        "hash": -3645238801456860791
+      }
+    },
+    {
+      "label": "sceSynthesizerChangePartHsExpression",
+      "signature": {
+        "length": 100,
+        "hash": -8663573292907004144
+      }
+    },
+    {
+      "label": "sceSynthesizerChangePartHsPitchBend",
+      "signature": {
+        "length": 60,
+        "hash": 6745456224552665785
+      }
+    },
+    {
+      "label": "sceSynthesizerSendShortMessage",
+      "signature": {
+        "length": 316,
+        "hash": 2438443912467795311
+      }
+    },
+    {
+      "label": "ControlChangeMessage",
+      "signature": {
+        "length": 1104,
+        "hash": 4831620348864006234
+      }
+    },
+    {
+      "label": "sceSynthesizerSetMasterVolume",
+      "signature": {
+        "length": 28,
+        "hash": -7825000601740203101
+      }
+    },
+    {
+      "label": "sceSynthesizerHsMessage",
+      "signature": {
+        "length": 456,
+        "hash": -8270188881835885632
+      }
+    },
+    {
+      "label": "sceSynthesizerCent2PhaseInc",
+      "signature": {
+        "length": 84,
+        "hash": -235615986665131529
+      }
+    },
+    {
+      "label": "sceSynthesizerCalcPortamentPitch",
+      "signature": {
+        "length": 56,
+        "hash": -9081181955826315564
+      }
+    },
+    {
+      "label": "sceSynthesizerReadNoise",
+      "signature": {
+        "length": 100,
+        "hash": -4547518306901862464
+      }
+    },
+    {
+      "label": "sceSynthesizerReadNoiseAdd",
+      "signature": {
+        "length": 108,
+        "hash": 4554086600662246639
+      }
+    },
+    {
+      "label": "sceSynthesizerReadSample16",
+      "signature": {
+        "length": 148,
+        "hash": 6103151462651208701
+      }
+    },
+    {
+      "label": "sceSynthesizerReadSample16Add",
+      "signature": {
+        "length": 156,
+        "hash": 464099244773874245
+      }
+    },
+    {
+      "label": "sceSynthesizerReadSample8",
+      "signature": {
+        "length": 144,
+        "hash": 4222565835833845617
+      }
+    },
+    {
+      "label": "sceSynthesizerReadSample8Add",
+      "signature": {
+        "length": 152,
+        "hash": 4694821584309478585
+      }
+    },
+    {
+      "label": "sceSynthesizerClearSpr",
+      "signature": {
+        "length": 132,
+        "hash": -5130796152424833556
+      }
+    },
+    {
+      "label": "sceSSyn_SetMasterVolume",
+      "signature": {
+        "length": 80,
+        "hash": -2492872708276426157
+      }
+    },
+    {
+      "label": "sceSSyn_SetOutPortVolume",
+      "signature": {
+        "length": 108,
+        "hash": -4890250709821688679
+      }
+    },
+    {
+      "label": "sceSSyn_SetOutputAssign",
+      "signature": {
+        "length": 324,
+        "hash": 6214818678040710066
+      }
+    },
+    {
+      "label": "sceSSyn_SetPortVolume",
+      "signature": {
+        "length": 192,
+        "hash": 2930578677085737494
+      }
+    },
+    {
+      "label": "sceSSyn_SendShortMsg",
+      "signature": {
+        "length": 64,
+        "hash": 813882738659557679
+      }
+    },
+    {
+      "label": "sceSSyn_SendExcMsg",
+      "signature": {
+        "length": 48,
+        "hash": -1591619753108730490
+      }
+    },
+    {
+      "label": "sceSSyn_SendRpnMsg",
+      "signature": {
+        "length": 128,
+        "hash": 3615971521338742436
+      }
+    },
+    {
+      "label": "sceSSyn_SendNrpnMsg",
+      "signature": {
+        "length": 56,
+        "hash": -1526280775714159885
+      }
+    },
+    {
+      "label": "sceSSyn_SetChPriority",
+      "signature": {
+        "length": 100,
+        "hash": 2753934931858904693
+      }
+    },
+    {
+      "label": "sceSSyn_SetPortMaxPoly",
+      "signature": {
+        "length": 60,
+        "hash": 8091473244597106989
+      }
+    },
+    {
+      "label": "sceSSyn_ClearBreakAtick",
+      "signature": {
+        "length": 36,
+        "hash": 203538337383012651
+      }
+    },
+    {
+      "label": "sceSSyn_BreakAtick",
+      "signature": {
+        "length": 32,
+        "hash": -1133500768050076663
+      }
+    },
+    {
+      "label": "sceSSyn_SetOutputMode",
+      "signature": {
+        "length": 48,
+        "hash": -3649420321174935179
+      }
+    },
+    {
+      "label": "sceSSyn_SetTvaEnvMode",
+      "signature": {
+        "length": 48,
+        "hash": -7743068189144383394
+      }
+    },
+    {
+      "label": "sceSSyn_Init",
+      "signature": {
+        "length": 756,
+        "hash": -6420523813913203371
+      }
+    },
+    {
+      "label": "sceSSyn_PrepareParameter",
+      "signature": {
+        "length": 40,
+        "hash": 6931415475780695873
+      }
+    },
+    {
+      "label": "sceSSyn_Load",
+      "signature": {
+        "length": 36,
+        "hash": -4314341543685406155
+      }
+    },
+    {
+      "label": "mkEeConf",
+      "signature": {
+        "length": 136,
+        "hash": 2530107561734533559
+      }
+    },
+    {
+      "label": "rpc_server",
+      "signature": {
+        "length": 172,
+        "hash": 6504446322447621508
+      }
+    },
+    {
+      "label": "ThreadFunc",
+      "signature": {
+        "length": 124,
+        "hash": -4560314798531779791
+      }
+    },
+    {
+      "label": "sceSSyn_RegisterRpc",
+      "signature": {
+        "length": 112,
+        "hash": -7808429110889462424
+      }
+    },
+    {
+      "label": "get_srv_count",
+      "signature": {
+        "length": 112,
+        "hash": -7194188299024193851
+      }
+    },
+    {
+      "label": "scanOneRxCueue",
+      "signature": {
+        "length": 596,
+        "hash": -641156262653224891
+      }
+    },
+    {
+      "label": "scanRxCueue",
+      "signature": {
+        "length": 248,
+        "hash": -5023409665956462680
+      }
+    },
+    {
+      "label": "sceSSyn_ATick",
+      "signature": {
+        "length": 488,
+        "hash": -5292359325944061820
+      }
+    },
+    {
+      "label": "scan_MidiStream",
+      "signature": {
+        "length": 368,
+        "hash": -1746109488316542342
+      }
+    },
+    {
+      "label": "scan_all_MidiStream",
+      "signature": {
+        "length": 124,
+        "hash": 4648682540595789997
+      }
+    },
+    {
+      "label": "procVoiceStop",
+      "signature": {
+        "length": 216,
+        "hash": 8986536375719744181
+      }
+    },
+    {
+      "label": "phaseChange2Release",
+      "signature": {
+        "length": 164,
+        "hash": 4864102750478087294
+      }
+    },
+    {
+      "label": "breakVoice",
+      "signature": {
+        "length": 84,
+        "hash": 5119014911847592087
+      }
+    },
+    {
+      "label": "procParaVoices",
+      "signature": {
+        "length": 1988,
+        "hash": -8356599236878587644
+      }
+    },
+    {
+      "label": "clrSprWorkCurVoice",
+      "signature": {
+        "length": 52,
+        "hash": -5645470387327776986
+      }
+    },
+    {
+      "label": "toneGeneratorProc",
+      "signature": {
+        "length": 192,
+        "hash": -3264390503424022684
+      }
+    },
+    {
+      "label": "sceSynthesizerTonegenerator",
+      "signature": {
+        "length": 824,
+        "hash": -6842099196609018628
+      }
+    },
+    {
+      "label": "setupStartVoiceOutput",
+      "signature": {
+        "length": 192,
+        "hash": -5741277142535058495
+      }
+    },
+    {
+      "label": "setupStartVoiceNoise",
+      "signature": {
+        "length": 144,
+        "hash": -2960538406862929845
+      }
+    },
+    {
+      "label": "setupStartVoicePcm",
+      "signature": {
+        "length": 716,
+        "hash": 910732640255390054
+      }
+    },
+    {
+      "label": "setupStartVoiceEnv",
+      "signature": {
+        "length": 400,
+        "hash": 4684971796889924650
+      }
+    },
+    {
+      "label": "setupStartVoiceLfo",
+      "signature": {
+        "length": 180,
+        "hash": 7241105839723306689
+      }
+    },
+    {
+      "label": "setupStartVoiceTvf",
+      "signature": {
+        "length": 444,
+        "hash": -6493886142942947232
+      }
+    },
+    {
+      "label": "sceSynthesizerSetupMidiPanpot",
+      "signature": {
+        "length": 128,
+        "hash": 532787043650731856
+      }
+    },
+    {
+      "label": "setupStartVoicePanpot",
+      "signature": {
+        "length": 308,
+        "hash": -7426620910522180183
+      }
+    },
+    {
+      "label": "setupStartVoicePortamento",
+      "signature": {
+        "length": 120,
+        "hash": 301976238917079053
+      }
+    },
+    {
+      "label": "sceSynthesizerSetupMidiModuration",
+      "signature": {
+        "length": 296,
+        "hash": 2562716822184594169
+      }
+    },
+    {
+      "label": "setupStartVoice",
+      "signature": {
+        "length": 1028,
+        "hash": 9083462642748242624
+      }
+    },
+    {
+      "label": "popVoiceFromLink",
+      "signature": {
+        "length": 28,
+        "hash": 4293665684261202197
+      }
+    },
+    {
+      "label": "putVoiceToTop",
+      "signature": {
+        "length": 24,
+        "hash": -7749228611220506475
+      }
+    },
+    {
+      "label": "putVoiceToBottom",
+      "signature": {
+        "length": 24,
+        "hash": -7749228611220506475
+      }
+    },
+    {
+      "label": "sceSynthesizerCalcTvfCoefAll",
+      "signature": {
+        "length": 64,
+        "hash": 2702597852147976965
+      }
+    },
+    {
+      "label": "sceSynthesizerCalcTvfCoefF0",
+      "signature": {
+        "length": 288,
+        "hash": 9021272693184090068
+      }
+    },
+    {
+      "label": "sceSynthesizerTvfProcNI",
+      "signature": {
+        "length": 260,
+        "hash": 1456589391836710142
+      }
+    },
+    {
+      "label": "sceSynthesizerTvfProcI",
+      "signature": {
+        "length": 408,
+        "hash": -6414014178948749126
+      }
+    },
+    {
+      "label": "log2lin",
+      "signature": {
+        "length": 308,
+        "hash": 1274403069432314433
+      }
+    },
+    {
+      "label": "clrMem",
+      "signature": {
+        "length": 292,
+        "hash": 2707817915437871350
+      }
+    },
+    {
+      "label": "velMod0",
+      "signature": {
+        "length": 40,
+        "hash": -716972157080453972
+      }
+    },
+    {
+      "label": "velMod1",
+      "signature": {
+        "length": 40,
+        "hash": 3292760846402813404
+      }
+    },
+    {
+      "label": "velMod2",
+      "signature": {
+        "length": 68,
+        "hash": 1626518730838449419
+      }
+    },
+    {
+      "label": "velMod3",
+      "signature": {
+        "length": 84,
+        "hash": 419944844976070563
+      }
+    },
+    {
+      "label": "velMod4",
+      "signature": {
+        "length": 92,
+        "hash": -9056986953741868281
+      }
+    },
+    {
+      "label": "velMod5",
+      "signature": {
+        "length": 84,
+        "hash": -6719781064505681720
+      }
+    },
+    {
+      "label": "velMod6",
+      "signature": {
+        "length": 88,
+        "hash": 979937184353960642
+      }
+    },
+    {
+      "label": "velMod7",
+      "signature": {
+        "length": 88,
+        "hash": 3867523603345042047
+      }
+    },
+    {
+      "label": "velMod8",
+      "signature": {
+        "length": 116,
+        "hash": -8283430784697715851
+      }
+    },
+    {
+      "label": "velMod9",
+      "signature": {
+        "length": 144,
+        "hash": 4394805511689567381
+      }
+    },
+    {
+      "label": "getVelocityModify",
+      "signature": {
+        "length": 100,
+        "hash": 59408233458523729
+      }
+    },
+    {
+      "label": "velMod0Amp",
+      "signature": {
+        "length": 16,
+        "hash": -1215240582829605979
+      }
+    },
+    {
+      "label": "velMod1Amp",
+      "signature": {
+        "length": 24,
+        "hash": 2389761147880176810
+      }
+    },
+    {
+      "label": "velMod2Amp",
+      "signature": {
+        "length": 36,
+        "hash": 3971749327818903991
+      }
+    },
+    {
+      "label": "velMod3Amp",
+      "signature": {
+        "length": 40,
+        "hash": -4664398119902647937
+      }
+    },
+    {
+      "label": "velMod4Amp",
+      "signature": {
+        "length": 52,
+        "hash": -2487866828496943147
+      }
+    },
+    {
+      "label": "velMod5Amp",
+      "signature": {
+        "length": 40,
+        "hash": 8568344230392358744
+      }
+    },
+    {
+      "label": "getAmpVelocity",
+      "signature": {
+        "length": 128,
+        "hash": -1584519740098962844
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "libsdr",
+  "functions": [
+    {
+      "label": "sceSdRemoteCallbackInit",
+      "signature": {
+        "length": 212,
+        "hash": 7933102849349296358
+      }
+    },
+    {
+      "label": "_sdrCBThread",
+      "signature": {
+        "length": 100,
+        "hash": -2573210173545276291
+      }
+    },
+    {
+      "label": "_sdrCB",
+      "signature": {
+        "length": 224,
+        "hash": 4171926177224316752
+      }
+    },
+    {
+      "label": "sceSdRemoteInit",
+      "signature": {
+        "length": 188,
+        "hash": -2696813257191142338
+      }
+    },
+    {
+      "label": "sceSdTransToIOP",
+      "signature": {
+        "length": 112,
+        "hash": -1232406268875604096
+      }
+    },
+    {
+      "label": "sceSdCallBack",
+      "signature": {
+        "length": 12,
+        "hash": -8054772718261509802
+      }
+    },
+    {
+      "label": "sceSdRemote",
+      "signature": {
+        "length": 516,
+        "hash": 6674628727361257106
+      }
+    }
+  ]
+}

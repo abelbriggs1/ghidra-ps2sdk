@@ -1,0 +1,152 @@
+{
+  "name": "libscf",
+  "functions": [
+    {
+      "label": "GetRomName",
+      "signature": {
+        "length": 156,
+        "hash": -4029521620433900463
+      }
+    },
+    {
+      "label": "IsT10K",
+      "signature": {
+        "length": 64,
+        "hash": -5430128576033588122
+      }
+    },
+    {
+      "label": "sceScfGetLanguage",
+      "signature": {
+        "length": 96,
+        "hash": -1302631038721269598
+      }
+    },
+    {
+      "label": "sceScfSetT10kConfig",
+      "signature": {
+        "length": 28,
+        "hash": 7926795774782063445
+      }
+    },
+    {
+      "label": "sceScfGetAspect",
+      "signature": {
+        "length": 64,
+        "hash": -6326254472437413714
+      }
+    },
+    {
+      "label": "sceScfGetSpdif",
+      "signature": {
+        "length": 60,
+        "hash": -1997540434156894108
+      }
+    },
+    {
+      "label": "sceScfGetTimeZone",
+      "signature": {
+        "length": 100,
+        "hash": 7926512397190342231
+      }
+    },
+    {
+      "label": "sceScfGetDateNotation",
+      "signature": {
+        "length": 124,
+        "hash": -3895446933731084749
+      }
+    },
+    {
+      "label": "sceScfGetSummerTime",
+      "signature": {
+        "length": 128,
+        "hash": -4092819644153579550
+      }
+    },
+    {
+      "label": "sceScfGetTimeNotation",
+      "signature": {
+        "length": 128,
+        "hash": -604873612933332446
+      }
+    },
+    {
+      "label": "tobcd",
+      "signature": {
+        "length": 100,
+        "hash": 2245058986228353992
+      }
+    },
+    {
+      "label": "frombcd",
+      "signature": {
+        "length": 88,
+        "hash": -748993111903004993
+      }
+    },
+    {
+      "label": "convertfrombcd",
+      "signature": {
+        "length": 132,
+        "hash": 8668622670931623470
+      }
+    },
+    {
+      "label": "converttobcd",
+      "signature": {
+        "length": 132,
+        "hash": 8668622670931623470
+      }
+    },
+    {
+      "label": "adddate",
+      "signature": {
+        "length": 228,
+        "hash": -1767798096557653959
+      }
+    },
+    {
+      "label": "subdate",
+      "signature": {
+        "length": 212,
+        "hash": 2676525460173421062
+      }
+    },
+    {
+      "label": "addhour",
+      "signature": {
+        "length": 108,
+        "hash": -5126711629196936856
+      }
+    },
+    {
+      "label": "subhour",
+      "signature": {
+        "length": 104,
+        "hash": -2425477588753742857
+      }
+    },
+    {
+      "label": "AdjustTime",
+      "signature": {
+        "length": 200,
+        "hash": 3082321877390239155
+      }
+    },
+    {
+      "label": "sceScfGetGMTfromRTC",
+      "signature": {
+        "length": 68,
+        "hash": -9111657750419907386
+      }
+    },
+    {
+      "label": "sceScfGetLocalTimefromRTC",
+      "signature": {
+        "length": 104,
+        "hash": 490965077316205089
+      }
+    }
+  ]
+}

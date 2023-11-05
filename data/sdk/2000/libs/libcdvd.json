@@ -1,0 +1,327 @@
+{
+  "name": "libcdvd",
+  "functions": [
+    {
+      "label": "sceCdCallback",
+      "signature": {
+        "length": 60,
+        "hash": -4796261762847890663
+      }
+    },
+    {
+      "label": "cd_callback",
+      "signature": {
+        "length": 176,
+        "hash": 9071064171038186343
+      }
+    },
+    {
+      "label": "_Cdvd_cbLoop",
+      "signature": {
+        "length": 188,
+        "hash": -7129949409519201631
+      }
+    },
+    {
+      "label": "sceCdInitEeCB",
+      "signature": {
+        "length": 212,
+        "hash": -7104999202577691134
+      }
+    },
+    {
+      "label": "cd_read_intr",
+      "signature": {
+        "length": 160,
+        "hash": -4951789117407200767
+      }
+    },
+    {
+      "label": "cmd_sem_init",
+      "signature": {
+        "length": 148,
+        "hash": -4115845566567800199
+      }
+    },
+    {
+      "label": "cdvd_exit",
+      "signature": {
+        "length": 104,
+        "hash": 1380139168106066662
+      }
+    },
+    {
+      "label": "sceCdIntToPos",
+      "signature": {
+        "length": 200,
+        "hash": 8791879833211944331
+      }
+    },
+    {
+      "label": "sceCdPosToInt",
+      "signature": {
+        "length": 96,
+        "hash": 9215111577600357490
+      }
+    },
+    {
+      "label": "PowerOffCB",
+      "signature": {
+        "length": 328,
+        "hash": -8458922480593080333
+      }
+    },
+    {
+      "label": "sceCdSearchFile",
+      "signature": {
+        "length": 748,
+        "hash": 3270310864215898216
+      }
+    },
+    {
+      "label": "ncmd_prechk",
+      "signature": {
+        "length": 364,
+        "hash": -6201098398349610075
+      }
+    },
+    {
+      "label": "sceCdNcmdDiskReady",
+      "signature": {
+        "length": 152,
+        "hash": -567255059878677056
+      }
+    },
+    {
+      "label": "sceCdGetReadPos",
+      "signature": {
+        "length": 48,
+        "hash": 5325758901275177963
+      }
+    },
+    {
+      "label": "sceCdReadChain",
+      "signature": {
+        "length": 752,
+        "hash": -8758820447062846534
+      }
+    },
+    {
+      "label": "sceCdRead",
+      "signature": {
+        "length": 460,
+        "hash": 2945526461233095211
+      }
+    },
+    {
+      "label": "sceCdReadIOPm",
+      "signature": {
+        "length": 328,
+        "hash": -2951991461178334060
+      }
+    },
+    {
+      "label": "sceCdGetToc",
+      "signature": {
+        "length": 656,
+        "hash": 601656540086143842
+      }
+    },
+    {
+      "label": "sceCdSeek",
+      "signature": {
+        "length": 228,
+        "hash": -9110819482417485479
+      }
+    },
+    {
+      "label": "sceCdStandby",
+      "signature": {
+        "length": 192,
+        "hash": 3053969802416021790
+      }
+    },
+    {
+      "label": "sceCdStop",
+      "signature": {
+        "length": 196,
+        "hash": -3305114791447779264
+      }
+    },
+    {
+      "label": "sceCdPause",
+      "signature": {
+        "length": 192,
+        "hash": 6054085447377273686
+      }
+    },
+    {
+      "label": "sceCdSync",
+      "signature": {
+        "length": 168,
+        "hash": 4132563034972534851
+      }
+    },
+    {
+      "label": "sceCdSyncS",
+      "signature": {
+        "length": 100,
+        "hash": 8993421835156846241
+      }
+    },
+    {
+      "label": "scmd_prechk",
+      "signature": {
+        "length": 364,
+        "hash": -977416064324580509
+      }
+    },
+    {
+      "label": "sceCdInit",
+      "signature": {
+        "length": 744,
+        "hash": 8219038025728715836
+      }
+    },
+    {
+      "label": "sceCdDiskReady",
+      "signature": {
+        "length": 500,
+        "hash": -5653001430852574516
+      }
+    },
+    {
+      "label": "sceCdBreak",
+      "signature": {
+        "length": 180,
+        "hash": 2780843157452718311
+      }
+    },
+    {
+      "label": "sceCdGetDiskType",
+      "signature": {
+        "length": 152,
+        "hash": -301213155073781530
+      }
+    },
+    {
+      "label": "sceCdStatus",
+      "signature": {
+        "length": 184,
+        "hash": -418040385829004406
+      }
+    },
+    {
+      "label": "sceCdGetError",
+      "signature": {
+        "length": 152,
+        "hash": -2844456781115449217
+      }
+    },
+    {
+      "label": "_sceCdRI",
+      "signature": {
+        "length": 216,
+        "hash": 2421827220153723024
+      }
+    },
+    {
+      "label": "_sceCdRM",
+      "signature": {
+        "length": 232,
+        "hash": -7586486279373779308
+      }
+    },
+    {
+      "label": "sceCdMmode",
+      "signature": {
+        "length": 188,
+        "hash": 1594543917860499354
+      }
+    },
+    {
+      "label": "sceCdChangeThreadPriority",
+      "signature": {
+        "length": 188,
+        "hash": -3071834695363379777
+      }
+    },
+    {
+      "label": "sceCdReadClock",
+      "signature": {
+        "length": 248,
+        "hash": -3282362279937325464
+      }
+    },
+    {
+      "label": "sceCdTrayReq",
+      "signature": {
+        "length": 228,
+        "hash": 6477059436860135415
+      }
+    },
+    {
+      "label": "sceCdStInit",
+      "signature": {
+        "length": 44,
+        "hash": 7926454956864668290
+      }
+    },
+    {
+      "label": "sceCdStStart",
+      "signature": {
+        "length": 52,
+        "hash": -3849988272743679552
+      }
+    },
+    {
+      "label": "sceCdStSeek",
+      "signature": {
+        "length": 44,
+        "hash": -1580296574186055340
+      }
+    },
+    {
+      "label": "sceCdStStop",
+      "signature": {
+        "length": 56,
+        "hash": -6916608297820429393
+      }
+    },
+    {
+      "label": "sceCdStRead",
+      "signature": {
+        "length": 368,
+        "hash": -5036550196436844085
+      }
+    },
+    {
+      "label": "sceCdStPause",
+      "signature": {
+        "length": 80,
+        "hash": -7093012153929937660
+      }
+    },
+    {
+      "label": "sceCdStResume",
+      "signature": {
+        "length": 84,
+        "hash": -1043093295818142542
+      }
+    },
+    {
+      "label": "sceCdStStat",
+      "signature": {
+        "length": 72,
+        "hash": -8152760647236795576
+      }
+    },
+    {
+      "label": "sceCdStream",
+      "signature": {
+        "length": 352,
+        "hash": -532277279705572594
+      }
+    }
+  ]
+}

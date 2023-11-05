@@ -1,0 +1,124 @@
+{
+  "name": "libmcx",
+  "functions": [
+    {
+      "label": "sceMcxInit",
+      "signature": {
+        "length": 340,
+        "hash": 3342800691958194283
+      }
+    },
+    {
+      "label": "sceMcxChangeThreadPriority",
+      "signature": {
+        "length": 140,
+        "hash": -7098135479025370754
+      }
+    },
+    {
+      "label": "intrGetInfo",
+      "signature": {
+        "length": 76,
+        "hash": 6130857228216603226
+      }
+    },
+    {
+      "label": "sceMcxGetInfo",
+      "signature": {
+        "length": 204,
+        "hash": 2165949554736177319
+      }
+    },
+    {
+      "label": "sceMcxSetInfo",
+      "signature": {
+        "length": 244,
+        "hash": -835911933386134521
+      }
+    },
+    {
+      "label": "intrReadDev",
+      "signature": {
+        "length": 136,
+        "hash": 2457690420955319479
+      }
+    },
+    {
+      "label": "sceMcxReadDev",
+      "signature": {
+        "length": 288,
+        "hash": -1686501147274717353
+      }
+    },
+    {
+      "label": "sceMcxWriteDev",
+      "signature": {
+        "length": 300,
+        "hash": 2046346592578794727
+      }
+    },
+    {
+      "label": "sceMcxGetMem",
+      "signature": {
+        "length": 84,
+        "hash": 5795301232288284718
+      }
+    },
+    {
+      "label": "sceMcxSetMem",
+      "signature": {
+        "length": 84,
+        "hash": -5477120572533188727
+      }
+    },
+    {
+      "label": "sceMcxGetUifs",
+      "signature": {
+        "length": 68,
+        "hash": 8727472571152565345
+      }
+    },
+    {
+      "label": "sceMcxSetUifs",
+      "signature": {
+        "length": 216,
+        "hash": 8377811846755319106
+      }
+    },
+    {
+      "label": "sceMcxSetLed",
+      "signature": {
+        "length": 184,
+        "hash": -3798066535852452461
+      }
+    },
+    {
+      "label": "sceMcxDispTrans",
+      "signature": {
+        "length": 176,
+        "hash": -1957257988111393903
+      }
+    },
+    {
+      "label": "sceMcxShowTrans",
+      "signature": {
+        "length": 32,
+        "hash": 3082211718454200168
+      }
+    },
+    {
+      "label": "sceMcxHideTrans",
+      "signature": {
+        "length": 36,
+        "hash": -4040509548756237574
+      }
+    },
+    {
+      "label": "sceMcxSync",
+      "signature": {
+        "length": 232,
+        "hash": 8943414081083660639
+      }
+    }
+  ]
+}

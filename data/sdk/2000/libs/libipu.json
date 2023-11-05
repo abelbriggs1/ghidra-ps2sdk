@@ -1,0 +1,33 @@
+{
+  "name": "libipu",
+  "functions": [
+    {
+      "label": "sceIpuInit",
+      "signature": {
+        "length": 660,
+        "hash": -6803163366659935312
+      }
+    },
+    {
+      "label": "sceIpuStopDMA",
+      "signature": {
+        "length": 380,
+        "hash": 7660439367478403447
+      }
+    },
+    {
+      "label": "sceIpuRestartDMA",
+      "signature": {
+        "length": 464,
+        "hash": -4918027038629647827
+      }
+    },
+    {
+      "label": "sceIpuSync",
+      "signature": {
+        "length": 104,
+        "hash": -6142693107397901084
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "libpc",
+  "functions": [
+    {
+      "label": "scePcStart",
+      "signature": {
+        "length": 92,
+        "hash": 5447813597180342084
+      }
+    },
+    {
+      "label": "scePcStop",
+      "signature": {
+        "length": 28,
+        "hash": 7969205701406419969
+      }
+    }
+  ]
+}

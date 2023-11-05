@@ -1,0 +1,747 @@
+{
+  "name": "libpkt",
+  "functions": [
+    {
+      "label": "sceDmaPkInit",
+      "signature": {
+        "length": 16,
+        "hash": 7788690383148266784
+      }
+    },
+    {
+      "label": "sceDmaPkReset",
+      "signature": {
+        "length": 16,
+        "hash": -8320780678318401292
+      }
+    },
+    {
+      "label": "sceDmaPkTerminate",
+      "signature": {
+        "length": 88,
+        "hash": -3188944415133711104
+      }
+    },
+    {
+      "label": "sceDmaPkSize",
+      "signature": {
+        "length": 20,
+        "hash": -6206347278082257331
+      }
+    },
+    {
+      "label": "sceDmaPkRefe",
+      "signature": {
+        "length": 144,
+        "hash": 2360180654828660146
+      }
+    },
+    {
+      "label": "sceDmaPkCnt",
+      "signature": {
+        "length": 116,
+        "hash": 4813888067635954112
+      }
+    },
+    {
+      "label": "sceDmaPkNext",
+      "signature": {
+        "length": 140,
+        "hash": 5892344132707962698
+      }
+    },
+    {
+      "label": "sceDmaPkRef",
+      "signature": {
+        "length": 152,
+        "hash": 1090810701377641701
+      }
+    },
+    {
+      "label": "sceDmaPkRefs",
+      "signature": {
+        "length": 152,
+        "hash": 1090810701377641701
+      }
+    },
+    {
+      "label": "sceDmaPkCall",
+      "signature": {
+        "length": 140,
+        "hash": 5892344132707962698
+      }
+    },
+    {
+      "label": "sceDmaPkRet",
+      "signature": {
+        "length": 116,
+        "hash": 4813888067635954112
+      }
+    },
+    {
+      "label": "sceDmaPkEnd",
+      "signature": {
+        "length": 116,
+        "hash": 4813888067635954112
+      }
+    },
+    {
+      "label": "sceDmaPkReserve",
+      "signature": {
+        "length": 20,
+        "hash": 7300703520712009478
+      }
+    },
+    {
+      "label": "sceDmaPkAddData",
+      "signature": {
+        "length": 20,
+        "hash": -2757894468337674077
+      }
+    },
+    {
+      "label": "sceDmaPkAddDataN",
+      "signature": {
+        "length": 60,
+        "hash": -5004053684152000714
+      }
+    },
+    {
+      "label": "sceDmaPkDump",
+      "signature": {
+        "length": 112,
+        "hash": -4386380919053159246
+      }
+    },
+    {
+      "label": "sceGifPkInit",
+      "signature": {
+        "length": 16,
+        "hash": 7788690383148266784
+      }
+    },
+    {
+      "label": "sceGifPkReset",
+      "signature": {
+        "length": 16,
+        "hash": -8320780678318401292
+      }
+    },
+    {
+      "label": "sceGifPkTerminate",
+      "signature": {
+        "length": 88,
+        "hash": -3188944415133711104
+      }
+    },
+    {
+      "label": "sceGifPkSize",
+      "signature": {
+        "length": 20,
+        "hash": -6206347278082257331
+      }
+    },
+    {
+      "label": "sceGifPkRefe",
+      "signature": {
+        "length": 144,
+        "hash": 2360180654828660146
+      }
+    },
+    {
+      "label": "sceGifPkCnt",
+      "signature": {
+        "length": 116,
+        "hash": 4813888067635954112
+      }
+    },
+    {
+      "label": "sceGifPkNext",
+      "signature": {
+        "length": 140,
+        "hash": 5892344132707962698
+      }
+    },
+    {
+      "label": "sceGifPkRef",
+      "signature": {
+        "length": 152,
+        "hash": 1090810701377641701
+      }
+    },
+    {
+      "label": "sceGifPkRefs",
+      "signature": {
+        "length": 152,
+        "hash": 1090810701377641701
+      }
+    },
+    {
+      "label": "sceGifPkCall",
+      "signature": {
+        "length": 140,
+        "hash": 5892344132707962698
+      }
+    },
+    {
+      "label": "sceGifPkRet",
+      "signature": {
+        "length": 116,
+        "hash": 4813888067635954112
+      }
+    },
+    {
+      "label": "sceGifPkEnd",
+      "signature": {
+        "length": 116,
+        "hash": 4813888067635954112
+      }
+    },
+    {
+      "label": "sceGifPkReserve",
+      "signature": {
+        "length": 20,
+        "hash": 7300703520712009478
+      }
+    },
+    {
+      "label": "sceGifPkOpenGifTag",
+      "signature": {
+        "length": 24,
+        "hash": 9110664035058804473
+      }
+    },
+    {
+      "label": "sceGifPkCloseGifTag",
+      "signature": {
+        "length": 156,
+        "hash": -2915679829048390610
+      }
+    },
+    {
+      "label": "sceGifPkAddGsData",
+      "signature": {
+        "length": 40,
+        "hash": 4702782034430968425
+      }
+    },
+    {
+      "label": "sceGifPkAddGsPacked",
+      "signature": {
+        "length": 20,
+        "hash": -2757894468337674077
+      }
+    },
+    {
+      "label": "sceGifPkAddGsAD",
+      "signature": {
+        "length": 36,
+        "hash": -2015506527416880207
+      }
+    },
+    {
+      "label": "sceGifPkRefLoadImage",
+      "signature": {
+        "length": 448,
+        "hash": -9091864204918756792
+      }
+    },
+    {
+      "label": "sceGifPkDump",
+      "signature": {
+        "length": 112,
+        "hash": -4386380919053159246
+      }
+    },
+    {
+      "label": "sceGifPkAddGsDataN",
+      "signature": {
+        "length": 60,
+        "hash": 3861823552517166250
+      }
+    },
+    {
+      "label": "sceGifPkAddGsPackedN",
+      "signature": {
+        "length": 60,
+        "hash": -5004053684152000714
+      }
+    },
+    {
+      "label": "sceVif0PkInit",
+      "signature": {
+        "length": 16,
+        "hash": 7788690383148266784
+      }
+    },
+    {
+      "label": "sceVif0PkReset",
+      "signature": {
+        "length": 16,
+        "hash": -8320780678318401292
+      }
+    },
+    {
+      "label": "sceVif0PkTerminate",
+      "signature": {
+        "length": 88,
+        "hash": -3188944415133711104
+      }
+    },
+    {
+      "label": "sceVif0PkSize",
+      "signature": {
+        "length": 20,
+        "hash": -6206347278082257331
+      }
+    },
+    {
+      "label": "sceVif0PkRefe",
+      "signature": {
+        "length": 144,
+        "hash": 2360180654828660146
+      }
+    },
+    {
+      "label": "sceVif0PkCnt",
+      "signature": {
+        "length": 88,
+        "hash": -3360633327551970299
+      }
+    },
+    {
+      "label": "sceVif0PkNext",
+      "signature": {
+        "length": 112,
+        "hash": -3690658624615903734
+      }
+    },
+    {
+      "label": "sceVif0PkRef",
+      "signature": {
+        "length": 152,
+        "hash": 1090810701377641701
+      }
+    },
+    {
+      "label": "sceVif0PkRefs",
+      "signature": {
+        "length": 152,
+        "hash": 1090810701377641701
+      }
+    },
+    {
+      "label": "sceVif0PkCall",
+      "signature": {
+        "length": 112,
+        "hash": -3690658624615903734
+      }
+    },
+    {
+      "label": "sceVif0PkRet",
+      "signature": {
+        "length": 88,
+        "hash": -3360633327551970299
+      }
+    },
+    {
+      "label": "sceVif0PkEnd",
+      "signature": {
+        "length": 88,
+        "hash": -3360633327551970299
+      }
+    },
+    {
+      "label": "sceVif0PkOpenUpkCode",
+      "signature": {
+        "length": 144,
+        "hash": 2188907837443318812
+      }
+    },
+    {
+      "label": "sceVif0PkCloseUpkCode",
+      "signature": {
+        "length": 88,
+        "hash": 2013536689187503900
+      }
+    },
+    {
+      "label": "sceVif0PkReserve",
+      "signature": {
+        "length": 20,
+        "hash": 7300703520712009478
+      }
+    },
+    {
+      "label": "sceVif0PkAlign",
+      "signature": {
+        "length": 120,
+        "hash": 2623183786119240766
+      }
+    },
+    {
+      "label": "sceVif0PkAddCode",
+      "signature": {
+        "length": 20,
+        "hash": -4157329047571471525
+      }
+    },
+    {
+      "label": "sceVif0PkAddData",
+      "signature": {
+        "length": 20,
+        "hash": -4157329047571471525
+      }
+    },
+    {
+      "label": "sceVif0PkAddDataN",
+      "signature": {
+        "length": 60,
+        "hash": 5682450663825006122
+      }
+    },
+    {
+      "label": "sceVif0PkAddUpkData32",
+      "signature": {
+        "length": 20,
+        "hash": -4157329047571471525
+      }
+    },
+    {
+      "label": "sceVif0PkAddUpkData32N",
+      "signature": {
+        "length": 60,
+        "hash": 5682450663825006122
+      }
+    },
+    {
+      "label": "sceVif0PkAddUpkData64",
+      "signature": {
+        "length": 40,
+        "hash": 4702782034430968425
+      }
+    },
+    {
+      "label": "sceVif0PkAddUpkData128",
+      "signature": {
+        "length": 80,
+        "hash": 6976378451251943031
+      }
+    },
+    {
+      "label": "sceVif0PkRefMpg",
+      "signature": {
+        "length": 196,
+        "hash": 7890599526828020843
+      }
+    },
+    {
+      "label": "sceVif0PkDump",
+      "signature": {
+        "length": 112,
+        "hash": -4386380919053159246
+      }
+    },
+    {
+      "label": "sceVif1PkInit",
+      "signature": {
+        "length": 16,
+        "hash": 7788690383148266784
+      }
+    },
+    {
+      "label": "sceVif1PkReset",
+      "signature": {
+        "length": 16,
+        "hash": -8320780678318401292
+      }
+    },
+    {
+      "label": "sceVif1PkTerminate",
+      "signature": {
+        "length": 88,
+        "hash": -3188944415133711104
+      }
+    },
+    {
+      "label": "sceVif1PkSize",
+      "signature": {
+        "length": 20,
+        "hash": -6206347278082257331
+      }
+    },
+    {
+      "label": "sceVif1PkRefe",
+      "signature": {
+        "length": 144,
+        "hash": 2360180654828660146
+      }
+    },
+    {
+      "label": "sceVif1PkCnt",
+      "signature": {
+        "length": 88,
+        "hash": -3360633327551970299
+      }
+    },
+    {
+      "label": "sceVif1PkNext",
+      "signature": {
+        "length": 112,
+        "hash": -3690658624615903734
+      }
+    },
+    {
+      "label": "sceVif1PkRef",
+      "signature": {
+        "length": 152,
+        "hash": 1090810701377641701
+      }
+    },
+    {
+      "label": "sceVif1PkRefs",
+      "signature": {
+        "length": 152,
+        "hash": 1090810701377641701
+      }
+    },
+    {
+      "label": "sceVif1PkCall",
+      "signature": {
+        "length": 112,
+        "hash": -3690658624615903734
+      }
+    },
+    {
+      "label": "sceVif1PkRet",
+      "signature": {
+        "length": 88,
+        "hash": -3360633327551970299
+      }
+    },
+    {
+      "label": "sceVif1PkEnd",
+      "signature": {
+        "length": 88,
+        "hash": -3360633327551970299
+      }
+    },
+    {
+      "label": "sceVif1PkOpenUpkCode",
+      "signature": {
+        "length": 144,
+        "hash": 2188907837443318812
+      }
+    },
+    {
+      "label": "sceVif1PkCloseUpkCode",
+      "signature": {
+        "length": 88,
+        "hash": 2013536689187503900
+      }
+    },
+    {
+      "label": "sceVif1PkOpenDirectCode",
+      "signature": {
+        "length": 88,
+        "hash": 4033443685761215956
+      }
+    },
+    {
+      "label": "sceVif1PkCloseDirectCode",
+      "signature": {
+        "length": 44,
+        "hash": 3220819364000673825
+      }
+    },
+    {
+      "label": "sceVif1PkOpenGifTag",
+      "signature": {
+        "length": 24,
+        "hash": 9110664035058804473
+      }
+    },
+    {
+      "label": "sceVif1PkCloseGifTag",
+      "signature": {
+        "length": 156,
+        "hash": -2915679829048390610
+      }
+    },
+    {
+      "label": "sceVif1PkReserve",
+      "signature": {
+        "length": 20,
+        "hash": 7300703520712009478
+      }
+    },
+    {
+      "label": "sceVif1PkAlign",
+      "signature": {
+        "length": 120,
+        "hash": 2623183786119240766
+      }
+    },
+    {
+      "label": "sceVif1PkAddCode",
+      "signature": {
+        "length": 20,
+        "hash": -4157329047571471525
+      }
+    },
+    {
+      "label": "sceVif1PkAddData",
+      "signature": {
+        "length": 20,
+        "hash": -4157329047571471525
+      }
+    },
+    {
+      "label": "sceVif1PkAddDataN",
+      "signature": {
+        "length": 64,
+        "hash": -1932173634707417074
+      }
+    },
+    {
+      "label": "sceVif1PkAddUpkData32",
+      "signature": {
+        "length": 20,
+        "hash": -4157329047571471525
+      }
+    },
+    {
+      "label": "sceVif1PkAddUpkData32N",
+      "signature": {
+        "length": 64,
+        "hash": -1932173634707417074
+      }
+    },
+    {
+      "label": "sceVif1PkAddUpkData64",
+      "signature": {
+        "length": 40,
+        "hash": 4702782034430968425
+      }
+    },
+    {
+      "label": "sceVif1PkAddUpkData128",
+      "signature": {
+        "length": 80,
+        "hash": 6976378451251943031
+      }
+    },
+    {
+      "label": "sceVif1PkAddDirectData",
+      "signature": {
+        "length": 80,
+        "hash": 6976378451251943031
+      }
+    },
+    {
+      "label": "sceVif1PkAddGsData",
+      "signature": {
+        "length": 40,
+        "hash": 4702782034430968425
+      }
+    },
+    {
+      "label": "sceVif1PkAddGsAD",
+      "signature": {
+        "length": 48,
+        "hash": -5810554427599061105
+      }
+    },
+    {
+      "label": "sceVif1PkRefLoadImage",
+      "signature": {
+        "length": 488,
+        "hash": 7209343324090060231
+      }
+    },
+    {
+      "label": "sceVif1PkRefMpg",
+      "signature": {
+        "length": 196,
+        "hash": 7890599526828020843
+      }
+    },
+    {
+      "label": "sceVif1PkDump",
+      "signature": {
+        "length": 112,
+        "hash": -4386380919053159246
+      }
+    },
+    {
+      "label": "sceVif0PkAddUpkData64N",
+      "signature": {
+        "length": 80,
+        "hash": 7061623886498768152
+      }
+    },
+    {
+      "label": "sceVif0PkAddUpkData128N",
+      "signature": {
+        "length": 116,
+        "hash": 7042330621348006071
+      }
+    },
+    {
+      "label": "sceVif1PkOpenDirectHLCode",
+      "signature": {
+        "length": 88,
+        "hash": 4033443685761215956
+      }
+    },
+    {
+      "label": "sceVif1PkAddUpkData64N",
+      "signature": {
+        "length": 80,
+        "hash": 7061623886498768152
+      }
+    },
+    {
+      "label": "sceVif1PkAddUpkData128N",
+      "signature": {
+        "length": 116,
+        "hash": 7042330621348006071
+      }
+    },
+    {
+      "label": "sceVif1PkAddDirectDataN",
+      "signature": {
+        "length": 116,
+        "hash": 7042330621348006071
+      }
+    },
+    {
+      "label": "sceVif1PkAddGsDataN",
+      "signature": {
+        "length": 80,
+        "hash": 7061623886498768152
+      }
+    },
+    {
+      "label": "sceVif1PkCloseDirectHLCode",
+      "signature": {
+        "length": 44,
+        "hash": 3220819364000673825
+      }
+    },
+    {
+      "label": "sceVif1PkAddGsPacked",
+      "signature": {
+        "length": 20,
+        "hash": -2757894468337674077
+      }
+    },
+    {
+      "label": "sceVif1PkAddGsPackedN",
+      "signature": {
+        "length": 60,
+        "hash": -5004053684152000714
+      }
+    }
+  ]
+}

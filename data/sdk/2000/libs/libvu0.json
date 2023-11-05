@@ -1,0 +1,299 @@
+{
+  "name": "libvu0",
+  "functions": [
+    {
+      "label": "sceVu0ApplyMatrix",
+      "signature": {
+        "length": 44,
+        "hash": 945368007247685732
+      }
+    },
+    {
+      "label": "sceVu0MulMatrix",
+      "signature": {
+        "length": 68,
+        "hash": -5917663772325538943
+      }
+    },
+    {
+      "label": "sceVu0OuterProduct",
+      "signature": {
+        "length": 28,
+        "hash": 4824282036471733580
+      }
+    },
+    {
+      "label": "sceVu0InnerProduct",
+      "signature": {
+        "length": 36,
+        "hash": 8399115022059088035
+      }
+    },
+    {
+      "label": "sceVu0Normalize",
+      "signature": {
+        "length": 52,
+        "hash": 2469692289035218183
+      }
+    },
+    {
+      "label": "sceVu0TransposeMatrix",
+      "signature": {
+        "length": 68,
+        "hash": -8098872848661232328
+      }
+    },
+    {
+      "label": "sceVu0InversMatrix",
+      "signature": {
+        "length": 108,
+        "hash": -4164353679837215637
+      }
+    },
+    {
+      "label": "sceVu0DivVector",
+      "signature": {
+        "length": 32,
+        "hash": 8267454525768414624
+      }
+    },
+    {
+      "label": "sceVu0DivVectorXYZ",
+      "signature": {
+        "length": 32,
+        "hash": 7045241475947286720
+      }
+    },
+    {
+      "label": "sceVu0InterVector",
+      "signature": {
+        "length": 40,
+        "hash": -3630772331449909649
+      }
+    },
+    {
+      "label": "sceVu0AddVector",
+      "signature": {
+        "length": 20,
+        "hash": 2842912484814770428
+      }
+    },
+    {
+      "label": "sceVu0SubVector",
+      "signature": {
+        "length": 20,
+        "hash": 9188247745316328440
+      }
+    },
+    {
+      "label": "sceVu0MulVector",
+      "signature": {
+        "length": 20,
+        "hash": 402855578973134866
+      }
+    },
+    {
+      "label": "sceVu0ScaleVector",
+      "signature": {
+        "length": 24,
+        "hash": -5996934520373393807
+      }
+    },
+    {
+      "label": "sceVu0TransMatrix",
+      "signature": {
+        "length": 44,
+        "hash": -2227752539580352414
+      }
+    },
+    {
+      "label": "sceVu0CopyVector",
+      "signature": {
+        "length": 12,
+        "hash": 3664707054134246244
+      }
+    },
+    {
+      "label": "sceVu0CopyMatrix",
+      "signature": {
+        "length": 36,
+        "hash": 916978344740239076
+      }
+    },
+    {
+      "label": "sceVu0FTOI4Vector",
+      "signature": {
+        "length": 16,
+        "hash": 5316660724291106327
+      }
+    },
+    {
+      "label": "sceVu0FTOI0Vector",
+      "signature": {
+        "length": 16,
+        "hash": -168347163452350222
+      }
+    },
+    {
+      "label": "sceVu0ITOF4Vector",
+      "signature": {
+        "length": 16,
+        "hash": 5464402016803909079
+      }
+    },
+    {
+      "label": "sceVu0ITOF0Vector",
+      "signature": {
+        "length": 16,
+        "hash": 5413157936583259058
+      }
+    },
+    {
+      "label": "sceVu0UnitMatrix",
+      "signature": {
+        "length": 40,
+        "hash": -8854509097866149802
+      }
+    },
+    {
+      "label": "_sceVu0ecossin",
+      "signature": {
+        "length": 116,
+        "hash": -6309843529204138549
+      }
+    },
+    {
+      "label": "sceVu0RotMatrixZ",
+      "signature": {
+        "length": 164,
+        "hash": -8391770252814819491
+      }
+    },
+    {
+      "label": "sceVu0RotMatrixX",
+      "signature": {
+        "length": 168,
+        "hash": -2439103137056702240
+      }
+    },
+    {
+      "label": "sceVu0RotMatrixY",
+      "signature": {
+        "length": 168,
+        "hash": 5949336514985203723
+      }
+    },
+    {
+      "label": "sceVu0RotMatrix",
+      "signature": {
+        "length": 80,
+        "hash": 7708511190940615091
+      }
+    },
+    {
+      "label": "sceVu0ClampVector",
+      "signature": {
+        "length": 36,
+        "hash": 3981733849452407205
+      }
+    },
+    {
+      "label": "sceVu0CameraMatrix",
+      "signature": {
+        "length": 176,
+        "hash": -3788861420795268762
+      }
+    },
+    {
+      "label": "sceVu0NormalLightMatrix",
+      "signature": {
+        "length": 192,
+        "hash": -2199204055142956056
+      }
+    },
+    {
+      "label": "sceVu0LightColorMatrix",
+      "signature": {
+        "length": 104,
+        "hash": -6043572915541800449
+      }
+    },
+    {
+      "label": "sceVu0ViewScreenMatrix",
+      "signature": {
+        "length": 260,
+        "hash": 2669284279728637794
+      }
+    },
+    {
+      "label": "sceVu0DropShadowMatrix",
+      "signature": {
+        "length": 400,
+        "hash": -2783988079228039739
+      }
+    },
+    {
+      "label": "sceVu0RotTransPersN",
+      "signature": {
+        "length": 88,
+        "hash": 8529432430798367261
+      }
+    },
+    {
+      "label": "sceVu0RotTransPers",
+      "signature": {
+        "length": 68,
+        "hash": -5974742656741374704
+      }
+    },
+    {
+      "label": "sceVu0CopyVectorXYZ",
+      "signature": {
+        "length": 28,
+        "hash": 3927596526829790484
+      }
+    },
+    {
+      "label": "sceVu0InterVectorXYZ",
+      "signature": {
+        "length": 44,
+        "hash": 258060883136922561
+      }
+    },
+    {
+      "label": "sceVu0ScaleVectorXYZ",
+      "signature": {
+        "length": 24,
+        "hash": 3377254558479165427
+      }
+    },
+    {
+      "label": "sceVu0ClipScreen",
+      "signature": {
+        "length": 72,
+        "hash": 3296317354234023516
+      }
+    },
+    {
+      "label": "sceVu0ClipScreen3",
+      "signature": {
+        "length": 96,
+        "hash": -4677414628793700452
+      }
+    },
+    {
+      "label": "sceVu0ClipAll",
+      "signature": {
+        "length": 140,
+        "hash": -8501080885425341560
+      }
+    },
+    {
+      "label": "sceVpu0Reset",
+      "signature": {
+        "length": 92,
+        "hash": 7459169510189646683
+      }
+    }
+  ]
+}

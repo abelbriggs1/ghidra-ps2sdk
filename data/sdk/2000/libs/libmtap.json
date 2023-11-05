@@ -1,0 +1,54 @@
+{
+  "name": "libmtap",
+  "functions": [
+    {
+      "label": "DPRINT",
+      "signature": {
+        "length": 40,
+        "hash": -1703188741213590508
+      }
+    },
+    {
+      "label": "sceMtapInit",
+      "signature": {
+        "length": 640,
+        "hash": 7693375193580101998
+      }
+    },
+    {
+      "label": "sceMtapPortOpen",
+      "signature": {
+        "length": 108,
+        "hash": -4407341313186871769
+      }
+    },
+    {
+      "label": "sceMtapPortClose",
+      "signature": {
+        "length": 108,
+        "hash": -4407341313186871769
+      }
+    },
+    {
+      "label": "sceMtapGetConnection",
+      "signature": {
+        "length": 108,
+        "hash": -4407341313186871769
+      }
+    },
+    {
+      "label": "sceMtapChangeThreadPriority",
+      "signature": {
+        "length": 112,
+        "hash": -6853372478205669714
+      }
+    },
+    {
+      "label": "sceMtapGetModVersion",
+      "signature": {
+        "length": 100,
+        "hash": 1800117684611610188
+      }
+    }
+  ]
+}
